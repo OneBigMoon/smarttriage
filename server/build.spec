@@ -34,9 +34,13 @@ if _WWW.is_dir():
         if f.is_file():
             rel = f.relative_to(_WWW.parent)  # web/dist/*
             _www_files.append((str(f), str(rel.parent)))
+    print(f"[build] web/dist/ 已就绪 — {len(_www_files)} 个文件")
 else:
-    print("WARNING: web/dist/ 不存在！请先执行 npm run build 构建前端。")
-    sys.exit(1)
+    print("WARNING: web/dist/ 不存在，前端静态文件不会被包含在 EXE 中。")
+    print("WARNING: 在生产环境，后端将无法提供前端页面。")
+    print("WARNING: 请先执行 npm run build 构建前端。")
+    # 不 exit，让 PyInstaller 继续打包后端
+    # 这样 CI 中即使前端构建有问题，也能先拿到后端的 exe
 
 # 打包 settings.env 模板（首次运行自动同目录生成，这里仅作备选）
 _env_tmpl = _PROJ / "server" / "settings.env"

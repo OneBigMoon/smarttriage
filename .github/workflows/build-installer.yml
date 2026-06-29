@@ -18,18 +18,24 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Node.js 20
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
           cache: 'npm'
           cache-dependency-path: web/package-lock.json
 
       - name: Build frontend
         run: |
           cd web
-          npm install --silent
+          echo "=== npm install ==="
+          npm install
+          if %errorlevel% neq 0 exit /b %errorlevel%
+          echo "=== npm run build ==="
           npm run build
+          if %errorlevel% neq 0 exit /b %errorlevel%
+          echo "=== dist/ contents ==="
+          dir /s /b dist\ 2>&1 || echo "dist/ not found!"
         shell: cmd
 
       - name: Setup Python 3.11
