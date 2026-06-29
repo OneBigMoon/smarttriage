@@ -1,0 +1,5 @@
+-keep class io.socket.** { *; }
+-keepattributes Signature,InnerClasses,EnclosingMethod
+-keepclassmembers,allowshrinking,allowobfuscation interface * { @retrofit2.http.* <methods>; }
+-keep class com.wcjk.triage.data.model.** { *; }
+-keep public class * implements com.bumptech.glide.module.GlideModule

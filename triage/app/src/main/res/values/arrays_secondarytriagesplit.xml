@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="secondarytriagesplit">
+        <item>
+			{
+	\"queues\": [{
+		\"clinicname\": \"普通诊室(18)\",
+		\"screenid\": 236195,
+		\"doctorname\": \"何应红\",
+		\"doctortitle\": \"内科学教授，主任医师，医学博士\",
+		\"doctorintro\": \"内科学教授，主任医师，医学博士，女，汉族，1956年4月生于漳州市。1982年毕业于福建医学院医学系，以优异成绩留校附属医院内科工作至今。1989年通过国家医学考试中心英语考试，于1990年及1995年由卫生部派出以 日本世川医学奖学金研修生及特别研究员 资格赴日本（国立）山梨 1 \",
+		\"doctorfeature\": \"心脑血管\",
+		\"doctorschedule\": \",星期一下午,星期三上午\",
+		\"doctorphoto\": \"blob格式数据流\",
+		\"patientcount\": \"33\",
+		\"patients\": [{
+			\"ticket\": \"Y021\",
+			\"brxm\": \"许*菁\",
+			\"brxmfull\": \"许丽菁\",
+			\"status\": 1
+		}, {
+			\"ticket\": \"Y031\",
+			\"brxm\": \"洪*怡\",
+			\"brxmfull\": \"洪静怡\",
+			\"status\": 2
+		}, {
+			\"ticket\": \"0046\",
+			\"brxm\": \"李*勇\",
+			\"brxmfull\": \"李少勇\",
+			\"status\": 2
+		}],
+		\"offtime\": \"2019-10-11 13:00:00,2019-10-11 18:00\"
+	}, {
+		\"clinicname\": \"303过敏风湿免疫专家门诊\",
+		\"screenid\": 236195,
+		\"doctorname\": \"林玲\",
+		\"doctortitle\": \"内科学教授，主任医师，医学博士\",
+		\"doctorintro\": \"内科学教授，主任医师，医学博士，女，汉族，1956年4月生于漳州市。1982年毕业于福建医学院医学系，以优异成绩留校附属医院内科工作至今。1989年通过国家医学考试中心英语考试，于1990年及1995年由卫生部派出以 日本世川医学奖学金研修生及特别研究员 资格赴日本（国立）山梨 1 \",
+		\"doctorfeature\": \"心脑血管\",
+		\"doctorschedule\": \",星期一下午,星期三上午\",
+		\"doctorphoto\": \"blob格式数据流\",
+		\"patientcount\": \"33\",
+		\"patients\": [{
+			\"ticket\": \"Y021\",
+			\"brxm\": \"许*菁\",
+			\"brxmfull\": \"许丽菁\",
+			\"status\": 1
+		}, {
+			\"ticket\": \"Y031\",
+			\"brxm\": \"洪*怡\",
+			\"brxmfull\": \"洪静怡\",
+			\"status\": 2
+		}, {
+			\"ticket\": \"0046\",
+			\"brxm\": \"李*勇\",
+			\"brxmfull\": \"李少勇\",
+			\"status\": 2
+		}]
+	}]
+}
+		</item>
+        <item>
+			{
+	\"queues\": [{
+		\"clinicname\": \"303过敏风湿免疫专家门诊\",
+		\"screenid\": 236195,
+		\"doctorname\": \"林玲\",
+		\"doctortitle\": \"内科学教授，主任医师，医学博士\",
+		\"doctorintro\": \"内科学教授，主任医师，医学博士，女，汉族，1956年4月生于漳州市。1982年毕业于福建医学院医学系，以优异成绩留校附属医院内科工作至今。1989年通过国家医学考试中心英语考试，于1990年及1995年由卫生部派出以 日本世川医学奖学金研修生及特别研究员 资格赴日本（国立）山梨 1 \",
+		\"doctorfeature\": \"心脑血管\",
+		\"doctorschedule\": \",星期一下午,星期三上午\",
+		\"doctorphoto\": \"blob格式数据流\",
+		\"patientcount\": \"33\",
+		\"patients\": [ {
+			\"ticket\": \"Y031\",
+			\"brxm\": \"洪1*怡\",
+			\"brxmfull\": \"洪1静怡\",
+			\"status\": 2
+		}, {
+			\"ticket\": \"0046\",
+			\"brxm\": \"李1*勇\",
+			\"brxmfull\": \"李1少勇\",
+			\"status\": 2
+		}],
+		\"offtime\": \"2019-10-11 13:00:00,2019-10-11 18:00\"
+	}, {
+		\"clinicname\": \"303过敏\",
+		\"screenid\": 236195,
+		\"doctorname\": \"李玲\",
+		\"doctortitle\": \"内科学教授，主任医师，医学博士\",
+		\"doctorintro\": \"内科学教授，主任医师，医学博士，女，汉族，1956年4月生于漳州市。1982年毕业于福建医学院医学系，以优异成绩留校附属医院内科工作至今。1989年通过国家医学考试中心英语考试，于1990年及1995年由卫生部派出以 日本世川医学奖学金研修生及特别研究员 资格赴日本（国立）山梨 1 \",
+		\"doctorfeature\": \"心脑血管\",
+		\"doctorschedule\": \",星期一下午,星期三上午\",
+		\"doctorphoto\": \"blob格式数据流\",
+		\"patientcount\": \"33\",
+		\"patients\": [ {
+			\"ticket\": \"Y031\",
+			\"brxm\": \"洪2*怡\",
+			\"brxmfull\": \"洪2静怡\",
+			\"status\": 2
+		}, {
+			\"ticket\": \"0046\",
+			\"brxm\": \"李2*勇\",
+			\"brxmfull\": \"李2少勇\",
+			\"status\": 2
+		}]
+	}]
+}
+		</item>
+        <item>
+			{
+	\"queues\": [{
+		\"clinicname\": \"\",
+		\"screenid\": \"\",
+		\"doctorname\": \"\",
+		\"doctortitle\": \"\",
+		\"doctorintro\": \" \",
+		\"doctorfeature\": \"\",
+		\"doctorschedule\": \"\",
+		\"doctorphoto\": \"\",
+		\"patientcount\": \"\",
+		\"patients\": [{
+			\"ticket\": \" \",
+			\"brxm\": \"\",
+			\"brxmfull\": \"\",
+			\"status\": 1
+		}, {
+			\"ticket\": \"\",
+			\"brxm\": \"\",
+			\"brxmfull\": \"\",
+			\"status\": 2
+		}, {
+			\"ticket\": \"\",
+			\"brxm\": \"\",
+			\"brxmfull\": \"\",
+			\"status\": 2
+		}],
+		\"offtime\": \"\"
+	}, {
+		\"clinicname\": \"\",
+		\"screenid\": \"\",
+		\"doctorname\": \"\",
+		\"doctortitle\": \"\",
+		\"doctorintro\": \" \",
+		\"doctorfeature\": \"\",
+		\"doctorschedule\": \"\",
+		\"doctorphoto\": \"\",
+		\"patientcount\": \"\",
+		\"patients\": [{
+			\"ticket\": \"\",
+			\"brxm\": \"\",
+			\"brxmfull\": \"\",
+			\"status\": 1
+		}, {
+			\"ticket\": \"\",
+			\"brxm\": \"\",
+			\"brxmfull\": \"\",
+			\"status\": 2
+		}, {
+			\"ticket\": \"\",
+			\"brxm\": \"\",
+			\"brxmfull\": \"\",
+			\"status\": 2
+		}]
+	}]
+}
+		</item>
+    </string-array>
+</resources>

@@ -1,0 +1,117 @@
+use smarttriage
+//系统配置
+db.systems.remove({});
+db.systems.insert({
+    "url" : "127.0.0.1/orcl",
+    "username" : "system",
+    "password" : "root1234",
+    "primarytablename" : "vw_ys_jhlsxx_fqsyyxy",
+    "secondarytablename" : "VW_PDJH_HZBR00",
+    "secondarycounttablename" : "VW_PDJH_YSJZRS",
+    "drawbloodtablename" : "vw_jy_bbcj00_fqpdjh",
+    "pharmacytablename" : "vw_py_xsppdjh_x",
+    "pacsusername" : "system",
+    "pacspassword" : "root1234",
+    "pacssecondarytablename" : "VW_PACS"
+});
+
+//用户
+db.users.remove({});
+db.users.insert({
+  "username": "root",
+  "salt": "v/7V7msVyVRGHg3uptEy",
+  "hashedPassword": "iAIVKFttDppRX1CMpUjo8PWRpK4TwaaRB/puJ7JKzL/d7F51p7CVuL4WxQAlk0WC/GHgsWN0UYpLpg74/hvB",
+  "auths": [
+    "AUTH_ROOT"
+  ],
+  "fullname": "root",
+  "ct": new Date(),
+  "ut": new Date()
+});
+
+//分组
+db.orgnizations.remove({});
+db.orgnizations.insert({
+    "_id": -1,
+    "name": "未注册", // 名称
+    "idpath": ".-1.", // idpath
+});
+db.orgnizations.insert({
+    "_id": 0,
+    "name": "全院", // 名称
+    "idpath": ".0.", // idpath
+});
+
+//数据源类型
+db.datasourcetypes.remove({});
+db.datasourcetypes.insert({
+    "key" : "primarytriage",
+    "name" : "一级分诊"
+});
+db.datasourcetypes.insert({
+    "key" : "secondarytriage",
+    "name" : "二级分诊"
+});
+db.datasourcetypes.insert({
+    "key" : "secondarytriagesplit",
+    "name" : "二级分诊(分屏)"
+});
+//db.datasourcetypes.insert({
+    //"key" : "primarytriageultrasonic",
+    //"name" : "超声一级分诊"
+//});
+db.datasourcetypes.insert({
+    "key" : "secondarytriageultrasonic",
+    "name" : "超声二级分诊"
+});
+db.datasourcetypes.insert({
+    "key" : "drawbloodtriage",
+    "name" : "检验"
+});
+db.datasourcetypes.insert({
+    "key" : "primarypharmacytriage",
+    "name" : "药房一级"
+});
+db.datasourcetypes.insert({
+    "key" : "secondarypharmacytriage",
+    "name" : "药房二级"
+});
+
+//样式
+db.styles.remove({});
+db.styles.insert({
+    "key" : "primarytriage",
+    "name" : "诊室一级分诊"
+});
+db.styles.insert({
+    "key" : "primarytriagefourrows",
+    "name" : "诊室一级分诊(4行)"
+});
+//db.styles.insert({
+    //"key" : "primarytriagedetailed",
+    //"name" : "诊室一级分诊详细"
+//});
+db.styles.insert({
+    "key" : "secondarytriage",
+    "name" : "诊室二级分诊"
+});
+db.styles.insert({
+    "key" : "secondarytriagesplit",
+    "name" : "诊室二级分诊(分屏)"
+});
+db.styles.insert({
+    "key" : "secondarytriageultrasonic",
+    "name" : "超声二级分诊"
+});
+db.styles.insert({
+    "key" : "drawbloodtriage",
+    "name" : "检验"
+});
+db.styles.insert({
+    "key" : "primarypharmacytriage",
+    "name" : "药房一级"
+});
+db.styles.insert({
+    "key" : "secondarypharmacytriage",
+    "name" : "药房二级"
+});

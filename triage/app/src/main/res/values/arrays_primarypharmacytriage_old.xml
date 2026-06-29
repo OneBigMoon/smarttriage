@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="primarypharmacytriage_old">
+        <item>
+           {
+	\"patiens\": [{
+		\"no\": 100,
+		\"name\": \"张三\",
+		\"calltimes\": 1,
+		\"winno\": 2
+	}, {
+		\"no\": 100,
+		\"name\": \"李四\",
+		\"calltimes\": 1,
+		\"winno\": 3
+	}, {
+		\"no\": 100,
+		\"name\": \"王五\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	}, {
+		\"no\": 104,
+		\"name\": \"小白\",
+		\"calltimes\": 1,
+		\"winno\": 2
+	}, {
+		\"no\": 106,
+		\"name\": \"小黑\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	}, {
+		\"no\": 107,
+		\"name\": \"小黑2\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	}, {
+		\"no\": 108,
+		\"name\": \"小黑3\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	}, {
+		\"no\": 109,
+		\"name\": \"小黑4\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	}, {
+		\"no\": 110,
+		\"name\": \"小黑5\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	},{
+		\"no\": 111,
+		\"name\": \"小黑6\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	}],
+	\"deptno\": 1
+}
+        </item>
+		<item>
+           {
+	\"patiens\": [
+            {
+		\"no\": 100,
+		\"name\": \"李四\",
+		\"calltimes\": 1,
+		\"winno\": 3
+	},{
+		\"no\": 100,
+		\"name\": \"张三\",
+		\"calltimes\": 1,
+		\"winno\": 2
+	},  {
+		\"no\": 100,
+		\"name\": \"王五\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	}, {
+		\"no\": 104,
+		\"name\": \"小白\",
+		\"calltimes\": 1,
+		\"winno\": 2
+	}, {
+		\"no\": 106,
+		\"name\": \"小黑\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	}, {
+		\"no\": 107,
+		\"name\": \"小黑2\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	}, {
+		\"no\": 108,
+		\"name\": \"小黑3\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	}, {
+		\"no\": 109,
+		\"name\": \"小黑4\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	}, {
+		\"no\": 110,
+		\"name\": \"小黑5\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	},{
+		\"no\": 111,
+		\"name\": \"小黑6\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	}],
+	\"deptno\": 1
+}
+        </item>
+        <item>
+           {
+	\"patiens\": [
+            {
+		\"no\": 110,
+		\"name\": \"张三c\",
+		\"calltimes\": 1,
+		\"winno\": 2
+	}, {
+		\"no\": 110,
+		\"name\": \"李四c\",
+		\"calltimes\": 1,
+		\"winno\": 3
+	}, {
+		\"no\": 100,
+		\"name\": \"李四\",
+		\"calltimes\": 1,
+		\"winno\": 3
+	},{
+		\"no\": 100,
+		\"name\": \"张三\",
+		\"calltimes\": 1,
+		\"winno\": 2
+	},  {
+		\"no\": 100,
+		\"name\": \"王五\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	}, {
+		\"no\": 104,
+		\"name\": \"小白\",
+		\"calltimes\": 1,
+		\"winno\": 2
+	}, {
+		\"no\": 106,
+		\"name\": \"小黑\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	}, {
+		\"no\": 107,
+		\"name\": \"小黑2\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	}, {
+		\"no\": 108,
+		\"name\": \"小黑3\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	}, {
+		\"no\": 109,
+		\"name\": \"小黑4\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	}, {
+		\"no\": 110,
+		\"name\": \"小黑5\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	},{
+		\"no\": 111,
+		\"name\": \"小黑6\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	}],
+	\"deptno\": 1
+}
+        </item>
+        <item>
+           {
+	\"patiens\": [
+             {
+		\"no\": 113,
+		\"name\": \"张三d\",
+		\"calltimes\": 1,
+		\"winno\": 3
+	}, {
+		\"no\": 113,
+		\"name\": \"李四d\",
+		\"calltimes\": 1,
+		\"winno\": 3
+	}, {
+		\"no\": 110,
+		\"name\": \"张三c\",
+		\"calltimes\": 1,
+		\"winno\": 2
+	}, {
+		\"no\": 110,
+		\"name\": \"李四c\",
+		\"calltimes\": 1,
+		\"winno\": 3
+	}, {
+		\"no\": 100,
+		\"name\": \"李四\",
+		\"calltimes\": 1,
+		\"winno\": 3
+	},{
+		\"no\": 100,
+		\"name\": \"张三\",
+		\"calltimes\": 1,
+		\"winno\": 2
+	},  {
+		\"no\": 100,
+		\"name\": \"王五\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	}, {
+		\"no\": 104,
+		\"name\": \"小白\",
+		\"calltimes\": 1,
+		\"winno\": 2
+	}, {
+		\"no\": 106,
+		\"name\": \"小黑\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	}, {
+		\"no\": 107,
+		\"name\": \"小黑2\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	}, {
+		\"no\": 108,
+		\"name\": \"小黑3\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	}, {
+		\"no\": 109,
+		\"name\": \"小黑4\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	}, {
+		\"no\": 110,
+		\"name\": \"小黑5\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	},{
+		\"no\": 111,
+		\"name\": \"小黑6\",
+		\"calltimes\": 1,
+		\"winno\": 1
+	}],
+	\"deptno\": 1
+}
+        </item>
+    </string-array>
+</resources>

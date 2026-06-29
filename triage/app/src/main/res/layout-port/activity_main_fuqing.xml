@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#D2ECF9"
+    tools:ignore="MissingDefaultResource">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="168px">
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="372px"
+            android:layout_height="112px"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40px"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/iv_state"
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin10"
+            android:src="@mipmap/ic_launcher"
+            android:visibility="invisible"/>
+        <TextView
+            android:id="@+id/tv_date"
+            style="@style/time_port_fuqing"
+            android:layout_alignRight="@+id/tv_time"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="35px"
+            tools:text="2018年07月12时" />
+        <TextView
+            android:id="@+id/tv_time"
+            style="@style/time_port_fuqing"
+            android:layout_marginRight="@dimen/margin20"
+            android:layout_toLeftOf="@+id/iv_state"
+            android:layout_below="@+id/tv_date"
+            tools:text="09:20" />
+        <TextView
+            android:id="@+id/tv_weekday"
+            style="@style/time_port_fuqing"
+            android:layout_toLeftOf="@+id/tv_time"
+            android:layout_alignTop="@+id/tv_time"
+            android:layout_marginRight="20px"
+            tools:text="星期四" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@drawable/shape_gradient_1_fuqing">
+    </LinearLayout>
+    <com.wcjk.triage.common.AutoScrollTextView
+        android:id="@+id/tv_run"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:layout_marginTop="@dimen/margin20"
+        android:layout_marginBottom="@dimen/margin20"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:gravity="center_vertical"
+        android:textColor="#57585A"
+        android:textSize="@dimen/text_size48"
+        android:text="感谢您耐心等待。"/>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!--外部存储路径-->
+    <external-path path="Android/data/com.nongyan.xinzhihouse/" name="files_root" />
+    <!--内部存储路径-->
+    <files-path
+        name="Android/data/com.nongyan.xinzhihouse/"
+        path="files_root">
+    </files-path>
+</paths>

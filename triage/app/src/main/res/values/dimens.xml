@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="settings_title_h">100px</dimen>
+    <dimen name="settings_title_icon_padding">20px</dimen>
+    <dimen name="settings_padding">20px</dimen>
+    <dimen name="settings_line_h">100px</dimen>
+
+    <dimen name="first_lever1_call_h">120px</dimen>
+    <dimen name="first_lever1_title_h">110px</dimen>
+    <dimen name="first_lever1_item_h">100px</dimen>
+    <dimen name="text1">46px</dimen>
+    <dimen name="text2">42px</dimen>
+    <dimen name="text3">38px</dimen>
+
+    <dimen name="margin3">3px</dimen>
+    <dimen name="margin5">5px</dimen>
+    <dimen name="margin10">10px</dimen>
+    <dimen name="margin15">15px</dimen>
+    <dimen name="margin20">20px</dimen>
+    <dimen name="margin30">30px</dimen>
+    <dimen name="margin40">40px</dimen>
+    <dimen name="margin60">60px</dimen>
+    <dimen name="margin90">90px</dimen>
+    <dimen name="margin120">120px</dimen>
+
+    <dimen name="text_size18">18px</dimen>
+    <dimen name="text_size22">22px</dimen>
+    <dimen name="text_size28">28px</dimen>
+    <dimen name="text_size30">30px</dimen>
+    <dimen name="text_size32">32px</dimen>
+    <dimen name="text_size36">36px</dimen>
+    <dimen name="text_size38">38px</dimen>
+    <dimen name="text_size48">48px</dimen>
+    <dimen name="text_size56">56px</dimen>
+    <dimen name="text_size60">60px</dimen>
+    <dimen name="text_size76">76px</dimen>
+    <dimen name="text_size82">82px</dimen>
+    <dimen name="text_size96">96px</dimen>
+    <dimen name="text_size120">120px</dimen>
+
+    <dimen name="title_land_h">120px</dimen>
+    <dimen name="autoscrollview_land_h">90px</dimen>
+
+    <dimen name="title_sport_h">168px</dimen>
+    <dimen name="autoscrollview_sport_h">90px</dimen>
+
+    <dimen name="item_drug_second_text1">100px</dimen>
+    <dimen name="item_drug_second_text2">100px</dimen>
+</resources>

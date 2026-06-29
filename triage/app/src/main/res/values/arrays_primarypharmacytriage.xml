@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="primarypharmacytriage">
+        <item>
+           {
+	\"patiens\": [{
+		\"no\": 100,
+		\"name\": \"0*\",
+		\"namefull\": \"0测试\",
+		\"calltimes\": 1,
+		\"winno\": 3,
+		\"calltime\": \"\"
+	}, {
+		\"no\": 100,
+		\"name\": \"0*\",
+		\"namefull\": \"0测试\",
+		\"calltimes\": 1,
+		\"winno\": 2,
+		\"calltime\": \"\"
+	}, {
+		\"no\": 100,
+		\"name\": \"0*\",
+		\"namefull\": \"0测试\",
+		\"calltimes\": 1,
+		\"winno\": 1,
+		\"calltime\": \"17:52:11\"
+	}, {
+		\"no\": 104,
+		\"name\": \"4*\",
+		\"namefull\": \"4测试\",
+		\"calltimes\": 1,
+		\"winno\": 2,
+		\"calltime\": \"\"
+	}, {
+		\"no\": 106,
+		\"name\": \"6*\",
+		\"namefull\": \"6测试\",
+		\"calltimes\": 1,
+		\"winno\": 1,
+		\"calltime\": \"\"
+	}, {
+		\"no\": 107,
+		\"name\": \"7*\",
+		\"namefull\": \"7测试\",
+		\"calltimes\": 1,
+		\"winno\": 1,
+		\"calltime\": \"\"
+	}, {
+		\"no\": 108,
+		\"name\": \"8*\",
+		\"namefull\": \"8测试\",
+		\"calltimes\": 1,
+		\"winno\": 1,
+		\"calltime\": \"\"
+	}, {
+		\"no\": 109,
+		\"name\": \"9*\",
+		\"namefull\": \"9测试\",
+		\"calltimes\": 1,
+		\"winno\": 1,
+		\"calltime\": \"\"
+	}, {
+		\"no\": 110,
+		\"name\": \"*\",
+		\"namefull\": \"a测试\",
+		\"calltimes\": 1,
+		\"winno\": 1,
+		\"calltime\": \"\"
+	},{
+		\"no\": 111,
+		\"name\": \"b*\",
+		\"namefull\": \"b测试\",
+		\"calltimes\": 1,
+		\"winno\": 1,
+		\"calltime\": \"\"
+	}],
+	\"deptno\": 1
+}
+        </item>
+		<item>
+           {
+	\"patiens\": [
+	{
+		\"no\": 114,
+		\"name\": \"d*\",
+		\"namefull\": \"d测试\",
+		\"calltimes\": 1,
+		\"winno\": 2,
+		\"calltime\": \"\"
+	},
+			{
+		\"no\": 100,
+		\"name\": \"0*\",
+		\"namefull\": \"0测试\",
+		\"calltimes\": 1,
+		\"winno\": 3,
+		\"calltime\": \"17:52:11\"
+	},{
+		\"no\": 100,
+		\"name\": \"0*\",
+		\"namefull\": \"0测试\",
+		\"calltimes\": 1,
+		\"winno\": 2,
+		\"calltime\": \"\"
+	},  {
+		\"no\": 100,
+		\"name\": \"0*\",
+		\"namefull\": \"0测试\",
+		\"calltimes\": 1,
+		\"winno\": 1,
+		\"calltime\": \"17:52:11\"
+	}, {
+		\"no\": 104,
+		\"name\": \"4*\",
+		\"namefull\": \"4测试\",
+		\"calltimes\": 1,
+		\"winno\": 2,
+		\"calltime\": \"\"
+	}, {
+		\"no\": 106,
+		\"name\": \"6*\",
+		\"namefull\": \"6测试\",
+		\"calltimes\": 1,
+		\"winno\": 1,
+		\"calltime\": \"\"
+	}, {
+		\"no\": 107,
+		\"name\": \"7*\",
+		\"namefull\": \"7测试\",
+		\"calltimes\": 1,
+		\"winno\": 1,
+		\"calltime\": \"\"
+	}, {
+		\"no\": 108,
+		\"name\": \"8*\",
+		\"namefull\": \"8测试\",
+		\"calltimes\": 1,
+		\"winno\": 1,
+		\"calltime\": \"\"
+	}, {
+		\"no\": 109,
+		\"name\": \"9*\",
+		\"namefull\": \"9测试\",
+		\"calltimes\": 1,
+		\"winno\": 1,
+		\"calltime\": \"\"
+	}, {
+		\"no\": 110,
+		\"name\": \"*\",
+		\"namefull\": \"a测试\",
+		\"calltimes\": 1,
+		\"winno\": 1,
+		\"calltime\": \"\"
+	},{
+		\"no\": 111,
+		\"name\": \"b*\",
+		\"namefull\": \"b测试\",
+		\"calltimes\": 1,
+		\"winno\": 1,
+		\"calltime\": \"\"
+	}],
+	\"deptno\": 1
+}
+        </item>
+
+		<item>
+           {
+	\"patiens\": [
+	{
+		\"no\": 100,
+		\"name\": \"0*\",
+		\"namefull\": \"0测试\",
+		\"calltimes\": 1,
+		\"winno\": 3,
+		\"calltime\": \"17:52:21\"
+	}, {
+		\"no\": 114,
+		\"name\": \"d*\",
+		\"namefull\": \"d测试\",
+		\"calltimes\": 1,
+		\"winno\": 2,
+		\"calltime\": \"\"
+	},
+			{
+		\"no\": 100,
+		\"name\": \"0*\",
+		\"namefull\": \"0测试\",
+		\"calltimes\": 1,
+		\"winno\": 2,
+		\"calltime\": \"\"
+	}, {
+		\"no\": 100,
+		\"name\": \"0*\",
+		\"namefull\": \"0测试\",
+		\"calltimes\": 1,
+		\"winno\": 1,
+		\"calltime\": \"17:52:11\"
+	}, {
+		\"no\": 104,
+		\"name\": \"4*\",
+		\"namefull\": \"4测试\",
+		\"calltimes\": 1,
+		\"winno\": 2,
+		\"calltime\": \"\"
+	}, {
+		\"no\": 106,
+		\"name\": \"6*\",
+		\"namefull\": \"6测试\",
+		\"calltimes\": 1,
+		\"winno\": 1,
+		\"calltime\": \"\"
+	}, {
+		\"no\": 107,
+		\"name\": \"7*\",
+		\"namefull\": \"7测试\",
+		\"calltimes\": 1,
+		\"winno\": 1,
+		\"calltime\": \"\"
+	}, {
+		\"no\": 108,
+		\"name\": \"8*\",
+		\"namefull\": \"8测试\",
+		\"calltimes\": 1,
+		\"winno\": 1,
+		\"calltime\": \"\"
+	}, {
+		\"no\": 109,
+		\"name\": \"9*\",
+		\"namefull\": \"9测试\",
+		\"calltimes\": 1,
+		\"winno\": 1,
+		\"calltime\": \"\"
+	}, {
+		\"no\": 110,
+		\"name\": \"*\",
+		\"namefull\": \"a测试\",
+		\"calltimes\": 1,
+		\"winno\": 1,
+		\"calltime\": \"\"
+	},{
+		\"no\": 111,
+		\"name\": \"b*\",
+		\"namefull\": \"b测试\",
+		\"calltimes\": 1,
+		\"winno\": 1,
+		\"calltime\": \"\"
+	}],
+	\"deptno\": 1
+}
+        </item>
+		<item>
+           {
+	\"patiens\": [],
+	\"deptno\": 1
+}
+        </item>
+    </string-array>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_keshi"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/item_keshi_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintHeight_percent="0.22"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_keshi"
+            android:tag="keshi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="儿科诊室2"
+            android:textColor="#164958"
+            android:textSize="18sp"
+            android:textStyle="bold"></TextView>
+
+        <LinearLayout
+
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_keshi_ys_bg"
+            android:gravity="center"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp">
+
+            <TextView
+                android:tag="ys"
+                android:id="@+id/tv_ys"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="医生:张晓明"
+                android:textColor="#164958"
+                android:textSize="13sp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/item_keshi_dhjz_bg"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:layout_constraintHeight_percent="0.78"
+        app:layout_constraintTop_toBottomOf="@+id/ll_keshi">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="等候就诊"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_wait_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

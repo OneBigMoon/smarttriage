@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="secondarytriageultrasonic">
+		 <item>
+           {
+				\"queues\": [{
+					\"queuename\": \"普通（19）陈柏霖\",
+					\"patients\": [{
+						\"ticket\": \"B001\",
+						\"brxmfull\": \"朱八\",
+						\"status\": 2
+					}, {
+						\"ticket\": \"B002\",
+						\"brxmfull\": \"李四\",
+						\"status\": 0
+					}, {
+						\"ticket\": \"B003\",
+						\"brxmfull\": \"赵二\",
+						\"status\": 0
+					}]
+				}, {
+					\"queuename\": \"超声3内\",
+					\"patients\": [{
+						\"ticket\": \"A001\",
+						\"brxmfull\": \"朱八\",
+						\"status\": 2
+					}, {
+						\"ticket\": \"A002\",
+						\"brxmfull\": \"李四\",
+						\"status\": 0
+					}, {
+						\"ticket\": \"A003\",
+						\"brxmfull\": \"赵二\",
+						\"status\": 0
+					}]
+				}]
+			}
+        </item>
+		<item>
+           {
+				\"queues\": [{
+					\"queuename\": \"普通（19）陈柏霖\",
+					\"patients\": [{
+						\"ticket\": \"B001\",
+						\"brxmfull\": \"朱八\",
+						\"status\": 2
+					}, {
+						\"ticket\": \"B002\",
+						\"brxmfull\": \"李四\",
+						\"status\": 0
+					}, {
+						\"ticket\": \"B003\",
+						\"brxmfull\": \"赵二\",
+						\"status\": 0
+					}]
+				}, {
+					\"queuename\": \"超声3内\",
+					\"patients\": [{
+						\"ticket\": \"A002\",
+						\"brxmfull\": \"朱八\",
+						\"status\": 2
+					}, {
+						\"ticket\": \"A003\",
+						\"brxmfull\": \"赵二\",
+						\"status\": 0
+					},{
+						\"ticket\": \"A004\",
+						\"brxmfull\": \"王五\",
+						\"status\": 0
+					}]
+				}]
+			}
+        </item>
+		<item>
+           {
+				\"queues\": [{
+					\"queuename\": \"普通（19）陈柏霖\",
+					\"patients\": [{
+						\"ticket\": \"B001\",
+						\"brxmfull\": \"朱八\",
+						\"status\": 2
+					}, {
+						\"ticket\": \"B002\",
+						\"brxmfull\": \"李四\",
+						\"status\": 0
+					}, {
+						\"ticket\": \"B003\",
+						\"brxmfull\": \"赵二\",
+						\"status\": 0
+					}]
+				}]
+			}
+        </item>
+		<item>
+           {
+				\"queues\": []
+			}
+        </item>
+    </string-array>
+</resources>

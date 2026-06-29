@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg_shape"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_land_h"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="364px"
+            android:layout_height="86px"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:layout_width="54px"
+            android:layout_height="54px"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="35px"
+            android:layout_marginRight="@dimen/margin10"
+            android:layout_toLeftOf="@+id/tv_date"
+            android:src="@drawable/time_circle_fill" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            style="@style/time_fjykfsdeyy"
+            android:layout_marginTop="35px"
+            android:layout_marginRight="@dimen/margin20"
+            android:layout_toLeftOf="@+id/tv_time"
+            tools:text="2018年07月12时" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            style="@style/time_fjykfsdeyy"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="35px"
+            android:layout_marginRight="10dp"
+            tools:text="09:20" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <!--<include layout="@layout/second_item"/>-->
+    </LinearLayout>
+
+    <com.wcjk.triage.common.AutoScrollTextView
+        android:id="@+id/tv_run"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="@dimen/margin20"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical"
+        android:textColor="#FF063C4B"
+        android:textSize="@dimen/text_size48" />
+</LinearLayout>

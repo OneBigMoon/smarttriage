@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="text1">#0075a9</color>
+    <color name="text2">#f6fcfc</color>
+    <color name="text3">#ffffff</color>
+    <color name="text4">#006085</color>
+    <color name="text5">#014B96</color>
+
+    <color name="bg1_title1">#303F9F</color>
+    <color name="edit_line_unfocus">#e8e8e9</color>
+    <color name="edit_text_focus">#1d1d26</color>
+    <color name="edit_text_unfocus">#b1b1b1</color>
+
+    <color name="color_F4F5F9">#F4F5F9</color>
+    <color name="color_4DA9C2">#4DA9C2</color>
+    <color name="color_BDDBEC">#BDDBEC</color>
+    <color name="color_D7E7BD">#D7E7BD</color>
+    <color name="color_CEE1E5">#CEe1e5</color>
+    <color name="color_C3DCEB">#C3DCEB</color>
+    <color name="color_4D99CB">#604d99cb</color>
+    <color name="color_E8EEF0">#e8eef0</color>
+    <color name="color_FFF4F5F9_50">#80F4F5F9</color>
+    <color name="color_b6dbfb">#b6dbfb</color>
+    <color name="trans_bg_color">#c0ffffff</color>
+    <color name="gray">#c8c8c8</color>
+    <color name="gray_bg">#ffe5e7e9</color>
+    <color name="color_ffffff_50">#99ffffff</color>
+
+    <color name="item_drug_first_dark">#a8d2e8</color>
+    <color name="item_drug_first_light">#c0d8ec</color>
+
+    <color name="item_drug_second_dark">#a7d6f9</color>
+    <color name="item_drug_second_light">#b6dbfb</color>
+    <color name="item_drug_second_text">#006085</color>
+</resources>

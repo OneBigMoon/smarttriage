@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="leveldepart">
+        <item>
+           {
+	\"queues\": [{
+		\"doctorname\": \"郑天祥\",
+		\"departmentid\": 15,
+		\"patientname\": \"何*平\",
+		\"officename\": \"门诊内科3\",
+		\"callmessage\": \"请 0018号 何*平到 门诊内科3 就诊\",
+		\"calltime\": \"10:39:43\",
+		\"waitno\": \"0009 朱思游游运  Y0010 陈思游  0018 黄培花  0014 李焕文  Y0011 陈文进  0016 刘永炜  Y0015 吕自福  0008 黄永惠  Y0012 肖淑娥\",
+		\"passno\": null,
+		\"callno\": \"0018\",
+		\"callvoice\": \"请0018号何秀平到门诊内科3就诊\"
+	}, {
+		\"doctorname\": \"林松元\",
+		\"departmentid\": 18,
+		\"patientname\": \"郑*傲\",
+		\"officename\": \"门诊内科6\",
+		\"callmessage\": \"请 0013号 郑*傲到 门诊内科6 就诊\",
+		\"calltime\": \"09:57:24\",
+		\"waitno\": \"0016 郑冰傲  0020 郑冰傲  0021 郑冰傲  0022 郑冰傲\",
+		\"passno\": null,
+		\"callno\": \"0013\",
+		\"callvoice\": \"请0013号郑冰傲到门诊内科6就诊\"
+	}, {
+		\"doctorname\": \"李诗开\",
+		\"departmentid\": 2,
+		\"patientname\": \"陈*平\",
+		\"officename\": \"门诊内科诊室2\",
+		\"callmessage\": \"请 0019号 陈*平到 门诊内科诊室2 就诊\",
+		\"calltime\": \"09:55:11\",
+		\"waitno\": \"\",
+		\"passno\": null,
+		\"callno\": \"0019\",
+		\"callvoice\": \"请0019号陈和平到门诊内科诊室2就诊\"
+	}, {
+		\"doctorname\": \"陈建明\",
+		\"departmentid\": 20,
+		\"patientname\": \"何*平\",
+		\"officename\": \"门诊内科8\",
+		\"callmessage\": \"请 0022号 何*平到 门诊内科8 就诊\",
+		\"calltime\": \"09:54:45\",
+		\"waitno\": \"0019 陈和平\",
+		\"passno\": null,
+		\"callno\": \"0022\",
+		\"callvoice\": \"请0022号何秀平到门诊内科8就诊\"
+	}, {
+		\"doctorname\": \"陈进利\",
+		\"departmentid\": 19,
+		\"patientname\": \"陈*平\",
+		\"officename\": \"门诊内科7\",
+		\"callmessage\": \"请 0014号 陈*平到 门诊内科7 就诊\",
+		\"calltime\": \"09:54:27\",
+		\"waitno\": \"0018 何秀平\",
+		\"passno\": null,
+		\"callno\": \"0014\",
+		\"callvoice\": \"请0014号陈和平到门诊内科7就诊\"
+	}, {
+		\"doctorname\": \"王新宇\",
+		\"departmentid\": 17,
+		\"patientname\": \"陈*平\",
+		\"officename\": \"门诊内科5\",
+		\"callmessage\": \"请 0018号 陈*平到 门诊内科5 就诊\",
+		\"calltime\": \"09:54:09\",
+		\"waitno\": \"0022 何秀平\",
+		\"passno\": null,
+		\"callno\": \"0018\",
+		\"callvoice\": \"请0018号陈和平到门诊内科5就诊\"
+	}, {
+		\"doctorname\": \"黄国成\",
+		\"departmentid\": 16,
+		\"patientname\": \"陈*平\",
+		\"officename\": \"门诊内科4\",
+		\"callmessage\": \"请 0005号 陈*平到 门诊内科4 就诊\",
+		\"calltime\": \"09:53:40\",
+		\"waitno\": \"0008 何秀平\",
+		\"passno\": null,
+		\"callno\": \"0005\",
+		\"callvoice\": \"请0005号陈和平到门诊内科4就诊\"
+	}]
+}        </item>
+
+    </string-array>
+
+</resources>

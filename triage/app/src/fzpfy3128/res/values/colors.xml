@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="item_drug_second_text">#F7E611</color>
+    <color name="item_drug_second_dark">#4654F2</color>
+    <color name="item_drug_second_light">#5866FD</color>
+    <color name="color_4DA9C2">#5665FF</color>
+    <color name="color_4D99CB">#5285D6</color>
+    <color name="color_red">#d60000</color>
+    </resources>

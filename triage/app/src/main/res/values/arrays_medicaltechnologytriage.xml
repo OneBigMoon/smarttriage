@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="medicaltechnologytriage">
+        <item>
+		{
+			\"winno\": 10,
+			\"winname\": \"医技室10\",
+			\"patients\": [{
+				\"status\": 1,
+				\"no\": \"Y050\",
+				\"queuetime\": \"17:38:20\",
+				\"name\": \"赖*飞\",
+				\"calltime\": \"17:38:20\",
+				\"callmessage\": \"请 Y050号 赖*飞 到 普通内科诊室1 就诊\",
+				\"callvoice\": \"请Y050号赖云飞到普通内科诊室1就诊\"
+			}, {
+				\"status\": 0,
+				\"no\": \"Y051\",
+				\"queuetime\": \"17:38:20\",
+				\"name\": \"赖*1\",
+				\"calltime\": \"17:38:20\",
+				\"callmessage\": \"请 Y051号 赖*1 到 普通内科诊室1 就诊\",
+				\"callvoice\": \"请Y051号赖云1到普通内科诊室1就诊\"
+			}],
+			\"deptno\": 1
+		}
+		</item>
+        <item>
+		{
+			\"winno\": 10,
+			\"winname\": \"医技室10\",
+			\"patients\": [{
+				\"status\": 1,
+				\"no\": \"Y051\",
+				\"queuetime\": \"17:38:21\",
+				\"name\": \"赖*里\",
+				\"calltime\": \"17:38:21\",
+				\"callmessage\": \"请 Y051号 赖*1 到 普通内科诊室1 就诊\",
+				\"callvoice\": \"请Y051号赖云1到普通内科诊室1就诊\"
+			}, {
+				\"status\": 0,
+				\"no\": \"Y052\",
+				\"queuetime\": \"17:38:20\",
+				\"name\": \"赖*飞\",
+				\"calltime\": \"17:38:20\",
+				\"callmessage\": \"请 Y052号 赖*2 到 普通内科诊室1 就诊\",
+				\"callvoice\": \"请Y052号赖云2到普通内科诊室1就诊\"
+
+			}],
+			\"deptno\": 1
+		}
+		</item>
+        <item>
+		{
+			\"winno\": 10,
+			\"winname\": \"\",
+			\"patients\": [],
+			\"deptno\": 1
+		}
+		</item>
+    </string-array>
+</resources>

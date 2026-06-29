@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:paddingBottom="19px"
+    android:paddingLeft="20px"
+    android:paddingRight="20px"
+    android:paddingTop="19px">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:background="#5665FF">
+
+        <com.wcjk.triage.common.MarqueeText
+            android:id="@+id/tv_section"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            style="@style/second_call_name"
+            android:tag="clinicname"
+            android:textSize="180px"
+            tools:text="内分泌与代谢病科" />
+        <!--<TextView-->
+        <!--android:id="@+id/tv_room"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginLeft="@dimen/margin20"-->
+        <!--android:layout_weight="1"-->
+        <!--android:textColor="@color/text2"-->
+        <!--android:textSize="@dimen/text_size76"-->
+        <!--android:text="诊室一"-->
+        <!--android:gravity="left|center_vertical"/>-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#5665FF"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120px"
+                android:background="#5285D6"
+                android:gravity="center_vertical"
+                android:paddingLeft="20px"
+                android:text="正在就诊"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/text_size56" />
+            <com.wcjk.triage.common.MarqueeText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/second_call_name"
+                android:paddingTop="10px"
+                android:tag="ticket1"
+                android:textSize="170px"
+                tools:text="1334" />
+
+            <com.wcjk.triage.common.MarqueeText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10px"
+                style="@style/second_call_name"
+                android:tag="brxmfull1"
+                android:textSize="130px"
+                tools:text="王欣欣" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20px"
+            android:layout_weight="1"
+            android:background="#5665FF"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120px"
+                android:gravity="center_vertical"
+                android:paddingLeft="20px"
+                android:text="等候就诊"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/text_size56"
+                android:background="#5285D6"/>
+
+            <com.wcjk.triage.common.MarqueeText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10px"
+                style="@style/second_call_name"
+                android:tag="ticket2"
+                android:textSize="170px"
+                tools:text="1334" />
+
+            <com.wcjk.triage.common.MarqueeText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10px"
+                style="@style/second_call_name"
+                android:tag="brxmfull2"
+                android:textSize="130px"
+                tools:text="林西县" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_below="@+id/ll3"
+        android:layout_marginTop="20px"
+        android:background="#5665FF"
+        android:paddingLeft="45px"
+        android:paddingRight="45px"
+        android:paddingTop="25px"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140px"
+            android:gravity="center">
+
+            <TextView
+                style="@style/second_lever1_doctor1_port"
+                android:textColor="@color/item_drug_second_text"
+                android:textSize="120px"
+                android:text="医生:" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                style="@style/second_lever1_doctor2_port"
+                android:textColor="@color/item_drug_second_text"
+                android:textSize="120px"
+                android:tag="doctorname"
+                tools:text="李世石" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10px"
+            android:gravity="center_vertical">
+            <ImageView
+                android:id="@+id/doctorphoto"
+                android:layout_width="238px"
+                android:layout_height="430px"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/doctor_q" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="37px"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin20">
+
+                    <TextView
+                        style="@style/second_lever1_doctor1_port"
+                        android:textColor="#ffffff"
+                        android:text="职称:" />
+
+                    <com.wcjk.triage.common.MarqueeText
+                        android:id="@+id/tv_profession"
+                        style="@style/second_lever1_doctor2_port"
+                        android:ellipsize="marquee"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:scrollHorizontally="true"
+                        android:singleLine="true"
+                        android:textColor="#ffffff"
+                        android:tag="doctortitle"
+                        tools:text="主任医生、教授" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin20"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/second_lever1_doctor1_port"
+                        android:textColor="#ffffff"
+                        android:text="特长介绍:"
+                        android:visibility="visible"/>
+
+                    <com.wcjk.triage.common.MarqueeText
+                        android:id="@+id/tv_speciality"
+                        style="@style/second_lever1_doctor2_port"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:layout_marginLeft="0dp"
+                        android:textColor="#ffffff"
+                        android:scrollbars="vertical"
+                        android:singleLine="false"
+                        android:tag="doctorfeature"
+                        tools:text="内分泌45454gfhhgjgjhjhjhjhjhghghhghghghgjhjhj" />
+                </LinearLayout>
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="@dimen/margin20">-->
+
+<!--                    <TextView-->
+<!--                        style="@style/second_lever1_doctor1_port"-->
+<!--                        android:textColor="#ffffff"-->
+<!--                        android:gravity="center|top"-->
+<!--                        android:text="坐诊时间:"-->
+<!--                        android:visibility="gone"/>-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/tv_time"-->
+<!--                        style="@style/second_lever1_doctor2_port"-->
+<!--                        android:layout_marginLeft="0dp"-->
+<!--                        android:textColor="#ffffff"-->
+<!--                        android:tag="doctorschedule"-->
+<!--                        tools:text="星期三上午、星期四下午、星期六、其他时间都在病房" />-->
+<!--                </LinearLayout>-->
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+variables:
+  GIT_STRATEGY: fetch
+  GIT_SUBMODULE_STRATEGY: recursive
+
+cache:
+  key: "$CI_PROJECT_PATH"
+  paths:
+    - node_modules/
+
+before_script:
+  - npm i
+
+job_build:
+  stage: build
+  except:
+    - branches
+    - pushes
+  script:
+    - npm run build
+    - cd dist
+    - ftp -n <<EOF
+    - open $FTP_HOST
+    - user $FTP_USER $FTP_PWD
+    - binary
+    - hash
+    - cd $FTP_DIR
+    - prompt
+    - mput "*.tar.gz"
+    - close
+    - bye
+    - EOF

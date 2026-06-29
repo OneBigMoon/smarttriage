@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.spec
+*.env
+*.db
+
+# Node
+node_modules/
+web/dist/
+
+# IDE
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads
+uploads/
+
+# Build output
+server/installer/SmartTriage.exe
+server/installer/nssm.exe
+server/installer/redis/
+server/installer/pgsql/
+server/installer/Output/
+
+# Logs
+*.log
+dump.rdb
+
+# Android build
+triage/.gradle/
+triage/build/
+triage/local.properties
+triage/app/build/
+android/.gradle/
+android/build/
+android/local.properties
+
+# SmartTriage (old Node.js)
+smarttriage/node_modules/
+smarttriage/dist/
+smarttriage/build/

@@ -1,0 +1,3 @@
+app/plugins/*
+app/services/loan-calculate.js
+app/views/admin/menu.vue

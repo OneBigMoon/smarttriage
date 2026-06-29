@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:paddingBottom="19px"
+    android:paddingLeft="20px"
+    android:paddingRight="20px"
+    android:paddingTop="19px">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="130px"
+        android:background="#4DA9C2">
+
+        <TextView
+            android:id="@+id/tv_section"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_horizontal|center_vertical"
+            android:tag="clinicname"
+            android:textColor="@color/text2"
+            android:textSize="@dimen/text_size76"
+            tools:text="内分泌与代谢病科" />
+        <!--<TextView-->
+        <!--android:id="@+id/tv_room"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginLeft="@dimen/margin20"-->
+        <!--android:layout_weight="1"-->
+        <!--android:textColor="@color/text2"-->
+        <!--android:textSize="@dimen/text_size76"-->
+        <!--android:text="诊室一"-->
+        <!--android:gravity="left|center_vertical"/>-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="320px"
+        android:layout_marginTop="10px"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="84px"
+                android:background="@drawable/bg_corner_top1_second_fuer"
+                android:gravity="center_vertical"
+                android:paddingLeft="20px"
+                android:text="下一个就诊"
+                android:textColor="@color/text2"
+                android:textSize="@dimen/text_size48" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:tag="ticket1"
+                android:textColor="#5E0000"
+                android:textSize="100px"
+                android:background="@drawable/bg_corner_bottom_second1"
+                tools:text="B1212" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:tag="brxm1"
+                android:textColor="#5E0000"
+                android:textSize="90px"
+                android:background="@drawable/bg_corner_bottom_second1"
+                tools:text="许*菁" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20px"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="84px"
+                android:gravity="center_vertical"
+                android:paddingLeft="20px"
+                android:text="等候就诊"
+                android:textColor="@color/text2"
+                android:textSize="@dimen/text_size48"
+                android:background="@drawable/bg_corner_top1_second_fuer"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:background="#FFBDDBEC">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20px"
+                    android:gravity="center"
+                    android:textColor="#006085"
+                    android:tag="ticket2"
+                    android:textSize="80px"
+                    tools:text="B1334" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30px"
+                    android:gravity="center"
+                    android:tag="brxm2"
+                    android:textSize="80px"
+                    android:textColor="#006085"
+                    tools:text="洪*怡" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/color_4D99CB"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:background="#FFBDDBEC">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20px"
+                    android:gravity="center"
+                    android:tag="ticket3"
+                    android:textSize="80px"
+                    android:textColor="#006085"
+                    tools:text="B1334" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30px"
+                    android:gravity="center"
+                    android:tag="brxm3"
+                    android:textSize="80px"
+                    android:textColor="#006085"
+                    tools:text="洪*怡" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll3"
+        android:layout_width="match_parent"
+        android:layout_height="90px"
+        android:layout_marginTop="10px"
+        android:background="@drawable/bg_corner_all_second1"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical"
+            android:text="当前等候人数"
+            android:textColor="@color/text5"
+            android:textSize="60px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:minWidth="40px"
+            android:gravity="center"
+            android:tag="patientcount"
+            android:textColor="@color/text5"
+            android:textSize="60px" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:textColor="@color/text5"
+            android:textSize="60px"
+            android:text="人" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_below="@+id/ll3"
+        android:layout_marginTop="10px"
+        android:background="@drawable/bg_corner_all_second1"
+        android:paddingLeft="45px"
+        android:paddingRight="45px">
+
+        <ImageView
+            android:id="@+id/doctorphoto"
+            android:layout_width="278px"
+            android:layout_height="460px"
+            android:layout_gravity="center_vertical"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/doctor_q" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="37px"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/second_lever1_doctor1_port"
+
+                    android:text="医生姓名:" />
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    style="@style/second_lever1_doctor2_port"
+                    android:tag="doctorname"
+                    tools:text="李世石" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin20">
+
+                <TextView
+                    style="@style/second_lever1_doctor1_port"
+                    android:text="医生职称:" />
+
+                <TextView
+                    android:id="@+id/tv_profession"
+                    style="@style/second_lever1_doctor2_port"
+                    android:tag="doctortitle"
+                    tools:text="主任医生、教授" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin20">
+
+                <TextView
+                    style="@style/second_lever1_doctor1_port"
+                    android:text="特长介绍:" />
+
+                <com.wcjk.triage.common.MarqueeText
+                    android:id="@+id/tv_speciality"
+                    style="@style/second_lever1_doctor2_port"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:tag="doctorfeature"
+                    tools:text="内分泌45454gfhhgjgjhjhjhjhjhghghhghghghgjhjhj" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin20">
+
+                <TextView
+                    style="@style/second_lever1_doctor1_port"
+                    android:gravity="center|top"
+                    android:text="坐诊时间:" />
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    style="@style/second_lever1_doctor2_port"
+                    android:tag="doctorschedule"
+                    tools:text="星期三上午、星期四下午、星期六、其他时间都在病房" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4px"
+        android:background="@drawable/bg_corner_all_second1"
+        android:paddingBottom="15px"
+        android:paddingLeft="15px"
+        android:paddingRight="35px">
+
+        <TextView
+            android:id="@+id/tv_tip"
+            android:layout_width="94px"
+            android:layout_height="154px"
+            android:background="@drawable/tip_bg_small"
+            android:gravity="center_horizontal"
+            android:paddingTop="22px"
+            android:text="就诊流程"
+            android:textColor="@color/text2"
+            android:textSize="@dimen/text_size32" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280px"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="20px"
+            android:layout_toRightOf="@+id/tv_tip"
+            android:src="@drawable/liucheng_fuer"/>
+
+        <LinearLayout
+            android:id="@+id/ll_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/second_lever1_doctor1"
+                android:gravity="center|top"
+                android:text="预约电话:" />
+
+            <TextView
+                style="@style/second_lever1_doctor2"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20px"
+                android:tag="tel"
+                tools:text="121323232323(陈医生)" />
+
+            <!--<TextView-->
+            <!--style="@style/second_lever1_doctor2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginLeft="20px"-->
+            <!--android:text="121323232323(黄医生)" />-->
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll6"
+        android:layout_width="match_parent"
+        android:layout_height="280px"
+        android:layout_marginTop="15px"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_corner_w"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="94px"
+                android:layout_height="180px"
+                android:layout_marginLeft="15px"
+                android:background="@drawable/tip_bg_big"
+                android:gravity="center_horizontal"
+                android:paddingTop="22px"
+                android:text="医院公众号"
+                android:textColor="@color/text2"
+                android:textSize="@dimen/text_size32" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:tag="qr1"
+                android:layout_marginBottom="33px"
+                android:layout_marginTop="33px"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/qr_code"
+               />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="20px"
+            android:background="@drawable/bg_corner_w"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="94px"
+                android:layout_height="180px"
+                android:layout_marginLeft="15px"
+                android:background="@drawable/tip_bg_big"
+                android:gravity="center_horizontal"
+                android:paddingTop="22px"
+                android:text="在线缴费"
+                android:textColor="@color/text2"
+                android:textSize="@dimen/text_size32" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:tag="qr2"
+                android:layout_marginBottom="33px"
+                android:layout_marginTop="33px"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/qr_code_zxjf"
+       />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

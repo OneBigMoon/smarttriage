@@ -1,0 +1,5 @@
+allprojects {
+    repositories {
+        maven { url uri('/Users/x/Documents/triage/.codex-tmp/local-maven') }
+    }
+}

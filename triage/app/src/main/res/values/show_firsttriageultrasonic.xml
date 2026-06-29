@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fristarytriageultrasonic">
+        <!--        <item>"{-->
+        <!--        \"queues\": [{-->
+        <!--        \"queuename\": \"超声\",-->
+        <!--        \"patients\": [{-->
+        <!--        \"officename\": \"彩超（1）\",-->
+        <!--        \"patientname\": \"胡*蓉\",-->
+        <!--        \"callmessage\": \"请1 胡*蓉到彩超（1）就诊\",-->
+        <!--        \"status\": \"0\",-->
+        <!--        \"calltime\": \"15:10:20\",-->
+        <!--        \"callno\": \"1\",-->
+        <!--        \"callvoice\": \"请1 1到彩超（1）就诊\",-->
+        <!--        \"Brxm01\": \"1\"-->
+        <!--        }, {-->
+        <!--        \"officename\": \"彩超（2）\",-->
+        <!--        \"patientname\": \"蔡*雄\",-->
+        <!--        \"callmessage\": \"请2 蔡*雄到彩超（2）就诊\",-->
+        <!--        \"status\": \"0\",-->
+        <!--        \"calltime\": \"15:14:25\",-->
+        <!--        \"callno\": \"2\",-->
+        <!--        \"callvoice\": \"请2 2到彩超（2）就诊\",-->
+        <!--        \"Brxm01\": \"2\"-->
+        <!--        }, {-->
+        <!--        \"officename\": \"彩超（3）\",-->
+        <!--        \"patientname\": \"欧*美\",-->
+        <!--        \"callmessage\": \"请3 欧*美到彩超（3）就诊\",-->
+        <!--        \"status\": \"0\",-->
+        <!--        \"calltime\": \"17:19:28\",-->
+        <!--        \"callno\": \"3\",-->
+        <!--        \"callvoice\": \"请3 3到彩超（3）就诊\",-->
+        <!--        \"Brxm01\": \"3\"-->
+        <!--        }, {-->
+        <!--        \"officename\": null,-->
+        <!--        \"patientname\": \"余*玉\",-->
+        <!--        \"callmessage\": \"请4 余*玉到null就诊\",-->
+        <!--        \"status\": \"0\",-->
+        <!--        \"calltime\": \"17:19:29\",-->
+        <!--        \"callno\": \"4\",-->
+        <!--        \"callvoice\": \"请4 4到null就诊\",-->
+        <!--        \"Brxm01\": \"4\"-->
+        <!--        }, {-->
+        <!--        \"officename\": null,-->
+        <!--        \"patientname\": \"胡*蓉\",-->
+        <!--        \"callmessage\": \"请5 胡*蓉到null就诊\",-->
+        <!--        \"status\": \"0\",-->
+        <!--        \"calltime\": null,-->
+        <!--        \"callno\": \"5\",-->
+        <!--        \"callvoice\": \"请5 5到null就诊\",-->
+        <!--        \"Brxm01\": \"5\"-->
+        <!--        }, {-->
+        <!--        \"officename\": \"彩超（6）\",-->
+        <!--        \"patientname\": \"蔡*雄\",-->
+        <!--        \"callmessage\": \"请6 蔡*雄到彩超（6）就诊\",-->
+        <!--        \"status\": \"0\",-->
+        <!--        \"calltime\": null,-->
+        <!--        \"callno\": \"6\",-->
+        <!--        \"callvoice\": \"请6 6到彩超（6）就诊\",-->
+        <!--        \"Brxm01\": \"6\"-->
+        <!--        }, {-->
+        <!--        \"officename\": \"\",-->
+        <!--        \"patientname\": \"欧*美\",-->
+        <!--        \"callmessage\": \"请7 欧*美到就诊\",-->
+        <!--        \"status\": \"0\",-->
+        <!--        \"calltime\": null,-->
+        <!--        \"callno\": \"7\",-->
+        <!--        \"callvoice\": \"请7 7到就诊\",-->
+        <!--        \"Brxm01\": \"7\"-->
+        <!--        }, {-->
+        <!--        \"officename\": \"彩超（8）\",-->
+        <!--        \"patientname\": \"欧*美\",-->
+        <!--        \"callmessage\": \"请8 欧*美到彩超（8）就诊\",-->
+        <!--        \"status\": \"0\",-->
+        <!--        \"calltime\": null,-->
+        <!--        \"callno\": \"8\",-->
+        <!--        \"callvoice\": \"请8 8到彩超（8）就诊\",-->
+        <!--        \"Brxm01\": \"8\"-->
+        <!--        }, {-->
+        <!--        \"officename\": \"彩超（8）\",-->
+        <!--        \"patientname\": \"欧*美\",-->
+        <!--        \"callmessage\": \"请9 欧*美到彩超（8）就诊\",-->
+        <!--        \"status\": \"0\",-->
+        <!--        \"calltime\": null,-->
+        <!--        \"callno\": \"9\",-->
+        <!--        \"callvoice\": \"请9 9到彩超（8）就诊\",-->
+        <!--        \"Brxm01\": \"9\"-->
+        <!--        }, {-->
+        <!--        \"officename\": \"彩超（8）\",-->
+        <!--        \"patientname\": \"欧*美\",-->
+        <!--        \"callmessage\": \"请10 欧*美到彩超（8）就诊\",-->
+        <!--        \"status\": \"0\",-->
+        <!--        \"calltime\": null,-->
+        <!--        \"callno\": \"10\",-->
+        <!--        \"callvoice\": \"请10 10到彩超（8）就诊\",-->
+        <!--        \"Brxm01\": \"10\"-->
+        <!--        }]-->
+        <!--        }]-->
+        <!--        }"-->
+        <!--        </item>-->
+        <!--        <item>-->
+        <!--            "{-->
+        <!--	\"queues\": [{-->
+        <!--		\"queuename\": \"超声\",-->
+        <!--		\"patients\": [{-->
+        <!--			\"officename\": null,-->
+        <!--			\"patientname\": \"胡*蓉\",-->
+        <!--			\"callmessage\": \"请1 胡*蓉到null就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": \"15:10:20\",-->
+        <!--			\"callno\": \"1\",-->
+        <!--			\"callvoice\": \"请1 1到null就诊\",-->
+        <!--			\"Brxm01\": \"1\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"彩超（2）\",-->
+        <!--			\"patientname\": \"蔡*雄\",-->
+        <!--			\"callmessage\": \"请2 蔡*雄到彩超（2）就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": \"15:14:25\",-->
+        <!--			\"callno\": \"2\",-->
+        <!--			\"callvoice\": \"请2 2到彩超（2）就诊\",-->
+        <!--			\"Brxm01\": \"2\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"彩超（3）\",-->
+        <!--			\"patientname\": \"欧*美\",-->
+        <!--			\"callmessage\": \"请3 欧*美到彩超（3）就诊\",-->
+        <!--			\"status\": \"4\",-->
+        <!--			\"calltime\": \"17:19:28\",-->
+        <!--			\"callno\": \"3\",-->
+        <!--			\"callvoice\": \"请3 3到彩超（3）就诊\",-->
+        <!--			\"Brxm01\": \"3\"-->
+        <!--		}, {-->
+        <!--			\"officename\": null,-->
+        <!--			\"patientname\": \"余*玉\",-->
+        <!--			\"callmessage\": \"请4 余*玉到null就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": \"17:19:29\",-->
+        <!--			\"callno\": \"4\",-->
+        <!--			\"callvoice\": \"请4 4到null就诊\",-->
+        <!--			\"Brxm01\": \"4\"-->
+        <!--		}, {-->
+        <!--			\"officename\": null,-->
+        <!--			\"patientname\": \"胡*蓉\",-->
+        <!--			\"callmessage\": \"请5 胡*蓉到null就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": null,-->
+        <!--			\"callno\": \"5\",-->
+        <!--			\"callvoice\": \"请5 5到null就诊\",-->
+        <!--			\"Brxm01\": \"5\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"彩超（6）\",-->
+        <!--			\"patientname\": \"蔡*雄\",-->
+        <!--			\"callmessage\": \"请6 蔡*雄到彩超（6）就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": null,-->
+        <!--			\"callno\": \"6\",-->
+        <!--			\"callvoice\": \"请6 6到彩超（6）就诊\",-->
+        <!--			\"Brxm01\": \"6\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"\",-->
+        <!--			\"patientname\": \"欧*美\",-->
+        <!--			\"callmessage\": \"请7 欧*美到就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": null,-->
+        <!--			\"callno\": \"7\",-->
+        <!--			\"callvoice\": \"请7 7到就诊\",-->
+        <!--			\"Brxm01\": \"7\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"彩超（8）\",-->
+        <!--			\"patientname\": \"欧*美\",-->
+        <!--			\"callmessage\": \"请8 欧*美到彩超（8）就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": null,-->
+        <!--			\"callno\": \"8\",-->
+        <!--			\"callvoice\": \"请8 8到彩超（8）就诊\",-->
+        <!--			\"Brxm01\": \"8\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"彩超（8）\",-->
+        <!--			\"patientname\": \"欧*美\",-->
+        <!--			\"callmessage\": \"请9 欧*美到彩超（8）就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": null,-->
+        <!--			\"callno\": \"9\",-->
+        <!--			\"callvoice\": \"请9 9到彩超（8）就诊\",-->
+        <!--			\"Brxm01\": \"9\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"彩超（8）\",-->
+        <!--			\"patientname\": \"欧*美\",-->
+        <!--			\"callmessage\": \"请10 欧*美到彩超（8）就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": null,-->
+        <!--			\"callno\": \"10\",-->
+        <!--			\"callvoice\": \"请10 10到彩超（8）就诊\",-->
+        <!--			\"Brxm01\": \"10\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"彩超（8）\",-->
+        <!--			\"patientname\": \"欧*美\",-->
+        <!--			\"callmessage\": \"请10 欧*美到彩超（8）就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": null,-->
+        <!--			\"callno\": \"10\",-->
+        <!--			\"callvoice\": \"请10 11到彩超（8）就诊\",-->
+        <!--			\"Brxm01\": \"11\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"彩超（8）\",-->
+        <!--			\"patientname\": \"欧*美\",-->
+        <!--			\"callmessage\": \"请10 欧*美到彩超（8）就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": null,-->
+        <!--			\"callno\": \"10\",-->
+        <!--			\"callvoice\": \"请10 12到彩超（8）就诊\",-->
+        <!--			\"Brxm01\": \"12\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"彩超（8）\",-->
+        <!--			\"patientname\": \"欧*美\",-->
+        <!--			\"callmessage\": \"请10 欧*美到彩超（8）就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": null,-->
+        <!--			\"callno\": \"10\",-->
+        <!--			\"callvoice\": \"请10 13到彩超（8）就诊\",-->
+        <!--			\"Brxm01\": \"13\"-->
+        <!--		}]-->
+        <!--	}]-->
+        <!--}"-->
+        <!--        </item>-->
+
+        <!--        <item>-->
+        <!--           "{-->
+        <!--	\"queues\": [{-->
+        <!--		\"queuename\": \"CT\",-->
+        <!--		\"patients\": [{-->
+        <!--			\"officename\": \"CT1\",-->
+        <!--			\"patientname\": \"洪*成\",-->
+        <!--			\"callmessage\": \"请201 洪*成到CT1就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": \"14:36:30\",-->
+        <!--			\"callno\": \"201\",-->
+        <!--			\"callvoice\": \"请201 14到CT1就诊\",-->
+        <!--			\"Brxm01\": \"14\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"CT2\",-->
+        <!--			\"patientname\": \"陈*玉\",-->
+        <!--			\"callmessage\": \"请202 陈*玉到CT2就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": \"14:36:30\",-->
+        <!--			\"callno\": \"202\",-->
+        <!--			\"callvoice\": \"请202 15到CT2就诊\",-->
+        <!--			\"Brxm01\": \"15\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"CT3\",-->
+        <!--			\"patientname\": \"李*厂\",-->
+        <!--			\"callmessage\": \"请203 李*厂到CT3就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": \"14:36:30\",-->
+        <!--			\"callno\": \"203\",-->
+        <!--			\"callvoice\": \"请203 16到CT3就诊\",-->
+        <!--			\"Brxm01\": \"16\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"CT4\",-->
+        <!--			\"patientname\": \"邱*明\",-->
+        <!--			\"callmessage\": \"请204 邱*明到CT4就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": null,-->
+        <!--			\"callno\": \"204\",-->
+        <!--			\"callvoice\": \"请204 17到CT4就诊\",-->
+        <!--			\"Brxm01\": \"17\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"CT5\",-->
+        <!--			\"patientname\": \"庄*灿\",-->
+        <!--			\"callmessage\": \"请205 庄*灿到CT5就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": null,-->
+        <!--			\"callno\": \"205\",-->
+        <!--			\"callvoice\": \"请205 18到CT5就诊\",-->
+        <!--			\"Brxm01\": \"18\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"CT6\",-->
+        <!--			\"patientname\": \"游*尧\",-->
+        <!--			\"callmessage\": \"请206 游*尧到CT6就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": null,-->
+        <!--			\"callno\": \"206\",-->
+        <!--			\"callvoice\": \"请206 19到CT6就诊\",-->
+        <!--			\"Brxm01\": \"19\"-->
+        <!--		}]-->
+        <!--	}, {-->
+        <!--		\"queuename\": \"磁共振\",-->
+        <!--		\"patients\": [{-->
+        <!--			\"officename\": null,-->
+        <!--			\"patientname\": \"黄*成\",-->
+        <!--			\"callmessage\": \"请101 黄*成到null就诊\",-->
+        <!--			\"status\": \"4\",-->
+        <!--			\"calltime\": \"17:19:28\",-->
+        <!--			\"callno\": \"101\",-->
+        <!--			\"callvoice\": \"请101 9到null就诊\",-->
+        <!--			\"Brxm01\": \"9\"-->
+        <!--		}, {-->
+        <!--			\"officename\": null,-->
+        <!--			\"patientname\": \"林*榕\",-->
+        <!--			\"callmessage\": \"请102 林*榕到null就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": null,-->
+        <!--			\"callno\": \"102\",-->
+        <!--			\"callvoice\": \"请102 10到null就诊\",-->
+        <!--			\"Brxm01\": \"10\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"磁共振3\",-->
+        <!--			\"patientname\": \"刘*堂\",-->
+        <!--			\"callmessage\": \"请103. 刘*堂到磁共振3就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": null,-->
+        <!--			\"callno\": \"103.\",-->
+        <!--			\"callvoice\": \"请103. 11到磁共振3就诊\",-->
+        <!--			\"Brxm01\": \"11\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"磁共振4\",-->
+        <!--			\"patientname\": \"黄*瑜\",-->
+        <!--			\"callmessage\": \"请104 黄*瑜到磁共振4就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": null,-->
+        <!--			\"callno\": \"104\",-->
+        <!--			\"callvoice\": \"请104 12到磁共振4就诊\",-->
+        <!--			\"Brxm01\": \"12\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"磁共振5\",-->
+        <!--			\"patientname\": \"严*琼\",-->
+        <!--			\"callmessage\": \"请105 严*琼到磁共振5就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": null,-->
+        <!--			\"callno\": \"105\",-->
+        <!--			\"callvoice\": \"请105 13到磁共振5就诊\",-->
+        <!--			\"Brxm01\": \"13\"-->
+        <!--		}]-->
+        <!--	}, {-->
+        <!--		\"queuename\": \"超声\",-->
+        <!--		\"patients\": [{-->
+        <!--			\"officename\": null,-->
+        <!--			\"patientname\": \"胡*蓉\",-->
+        <!--			\"callmessage\": \"请1 胡*蓉到null就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": \"15:10:20\",-->
+        <!--			\"callno\": \"1\",-->
+        <!--			\"callvoice\": \"请1 1到null就诊\",-->
+        <!--			\"Brxm01\": \"1\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"彩超（2）\",-->
+        <!--			\"patientname\": \"蔡*雄\",-->
+        <!--			\"callmessage\": \"请2 蔡*雄到彩超（2）就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": \"15:14:25\",-->
+        <!--			\"callno\": \"2\",-->
+        <!--			\"callvoice\": \"请2 2到彩超（2）就诊\",-->
+        <!--			\"Brxm01\": \"2\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"彩超（3）\",-->
+        <!--			\"patientname\": \"欧*美\",-->
+        <!--			\"callmessage\": \"请3 欧*美到彩超（3）就诊\",-->
+        <!--			\"status\": \"4\",-->
+        <!--			\"calltime\": \"17:19:28\",-->
+        <!--			\"callno\": \"3\",-->
+        <!--			\"callvoice\": \"请3 3到彩超（3）就诊\",-->
+        <!--			\"Brxm01\": \"3\"-->
+        <!--		}, {-->
+        <!--			\"officename\": null,-->
+        <!--			\"patientname\": \"余*玉\",-->
+        <!--			\"callmessage\": \"请4 余*玉到null就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": \"17:19:29\",-->
+        <!--			\"callno\": \"4\",-->
+        <!--			\"callvoice\": \"请4 4到null就诊\",-->
+        <!--			\"Brxm01\": \"4\"-->
+        <!--		}, {-->
+        <!--			\"officename\": null,-->
+        <!--			\"patientname\": \"胡*蓉\",-->
+        <!--			\"callmessage\": \"请5 胡*蓉到null就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": null,-->
+        <!--			\"callno\": \"5\",-->
+        <!--			\"callvoice\": \"请5 5到null就诊\",-->
+        <!--			\"Brxm01\": \"5\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"彩超（6）\",-->
+        <!--			\"patientname\": \"蔡*雄\",-->
+        <!--			\"callmessage\": \"请6 蔡*雄到彩超（6）就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": null,-->
+        <!--			\"callno\": \"6\",-->
+        <!--			\"callvoice\": \"请6 6到彩超（6）就诊\",-->
+        <!--			\"Brxm01\": \"6\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"\",-->
+        <!--			\"patientname\": \"欧*美\",-->
+        <!--			\"callmessage\": \"请7 欧*美到就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": null,-->
+        <!--			\"callno\": \"7\",-->
+        <!--			\"callvoice\": \"请7 7到就诊\",-->
+        <!--			\"Brxm01\": \"7\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"彩超（8）\",-->
+        <!--			\"patientname\": \"欧*美\",-->
+        <!--			\"callmessage\": \"请8 欧*美到彩超（8）就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": null,-->
+        <!--			\"callno\": \"8\",-->
+        <!--			\"callvoice\": \"请8 8到彩超（8）就诊\",-->
+        <!--			\"Brxm01\": \"8\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"彩超（8）\",-->
+        <!--			\"patientname\": \"欧*美\",-->
+        <!--			\"callmessage\": \"请9 欧*美到彩超（8）就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": null,-->
+        <!--			\"callno\": \"9\",-->
+        <!--			\"callvoice\": \"请9 9到彩超（8）就诊\",-->
+        <!--			\"Brxm01\": \"9\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"彩超（8）\",-->
+        <!--			\"patientname\": \"欧*美\",-->
+        <!--			\"callmessage\": \"请10 欧*美到彩超（8）就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": null,-->
+        <!--			\"callno\": \"10\",-->
+        <!--			\"callvoice\": \"请10 10到彩超（8）就诊\",-->
+        <!--			\"Brxm01\": \"10\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"彩超（8）\",-->
+        <!--			\"patientname\": \"欧*美\",-->
+        <!--			\"callmessage\": \"请11 欧*美到彩超（8）就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": null,-->
+        <!--			\"callno\": \"11\",-->
+        <!--			\"callvoice\": \"请11 11到彩超（8）就诊\",-->
+        <!--			\"Brxm01\": \"11\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"彩超（8）\",-->
+        <!--			\"patientname\": \"欧*美\",-->
+        <!--			\"callmessage\": \"请12 欧*美到彩超（8）就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": null,-->
+        <!--			\"callno\": \"12\",-->
+        <!--			\"callvoice\": \"请12 12到彩超（8）就诊\",-->
+        <!--			\"Brxm01\": \"12\"-->
+        <!--		}, {-->
+        <!--			\"officename\": \"彩超（8）\",-->
+        <!--			\"patientname\": \"欧*美\",-->
+        <!--			\"callmessage\": \"请13 欧*美到彩超（8）就诊\",-->
+        <!--			\"status\": \"0\",-->
+        <!--			\"calltime\": null,-->
+        <!--			\"callno\": \"13\",-->
+        <!--			\"callvoice\": \"请13 13到彩超（8）就诊\",-->
+        <!--			\"Brxm01\": \"13\"-->
+        <!--		}]-->
+        <!--	}]-->
+        <!--}"-->
+        <!--		</item>-->
+        <item>
+				"{
+	\"queues\": [{
+		\"queuename\": \"CT\",
+		\"patients\": [{
+			\"officename\": \"CT1\",
+			\"patientname\": \"洪*成\",
+			\"callmessage\": \"请207 洪*成到CT1就诊\",
+			\"status\": \"4\",
+			\"calltime\": \"14:36:30\",
+			\"callno\": \"急诊207\",
+			\"callvoice\": \"请207 14到CT1就诊\",
+			\"Brxm01\": \"14\"
+		}, {
+			\"officename\": \"CT1\",
+			\"patientname\": \"洪*成\",
+			\"callmessage\": \"请201 洪*成到CT1就诊\",
+			\"status\": \"0\",
+			\"calltime\": \"14:36:30\",
+			\"callno\": \"201\",
+			\"callvoice\": \"请201 14到CT1就诊\",
+			\"Brxm01\": \"14\"
+		}, {
+			\"officename\": \"CT2\",
+			\"patientname\": \"陈*玉\",
+			\"callmessage\": \"请202 陈*玉到CT2就诊\",
+			\"status\": \"0\",
+			\"calltime\": \"14:36:30\",
+			\"callno\": \"202\",
+			\"callvoice\": \"请202 15到CT2就诊\",
+			\"Brxm01\": \"15\"
+		}, {
+			\"officename\": \"CT3\",
+			\"patientname\": \"李*厂\",
+			\"callmessage\": \"请203 李*厂到CT3就诊\",
+			\"status\": \"0\",
+			\"calltime\": \"14:36:30\",
+			\"callno\": \"203\",
+			\"callvoice\": \"请203 16到CT3就诊\",
+			\"Brxm01\": \"16\"
+		}, {
+			\"officename\": \"CT4\",
+			\"patientname\": \"邱*明\",
+			\"callmessage\": \"请204 邱*明到CT4就诊\",
+			\"status\": \"0\",
+			\"calltime\": null,
+			\"callno\": \"204\",
+			\"callvoice\": \"请204 17到CT4就诊\",
+			\"Brxm01\": \"17\"
+		}, {
+			\"officename\": \"CT5\",
+			\"patientname\": \"庄*灿\",
+			\"callmessage\": \"请205 庄*灿到CT5就诊\",
+			\"status\": \"0\",
+			\"calltime\": null,
+			\"callno\": \"205\",
+			\"callvoice\": \"请205 18到CT5就诊\",
+			\"Brxm01\": \"18\"
+		}, {
+			\"officename\": \"CT6\",
+			\"patientname\": \"游*尧\",
+			\"callmessage\": \"请206 游*尧到CT6就诊\",
+			\"status\": \"0\",
+			\"calltime\": null,
+			\"callno\": \"206\",
+			\"callvoice\": \"请206 19到CT6就诊\",
+			\"Brxm01\": \"19\"
+		}]
+	}, {
+		\"queuename\": \"磁共振\",
+		\"patients\": [{
+			\"officename\": \"磁共振1\",
+			\"patientname\": \"黄*成\",
+			\"callmessage\": \"请101 黄*成到磁共振1就诊\",
+			\"status\": \"4\",
+			\"calltime\": \"17:19:28\",
+			\"callno\": \"101\",
+			\"callvoice\": \"请101 9到磁共振1就诊\",
+			\"Brxm01\": \"9\"
+		}, {
+			\"officename\": null,
+			\"patientname\": \"林*榕\",
+			\"callmessage\": \"请102 林*榕到null就诊\",
+			\"status\": \"4\",
+			\"calltime\": null,
+			\"callno\": \"102\",
+			\"callvoice\": \"请102 10到null就诊\",
+			\"Brxm01\": \"10\"
+		}, {
+			\"officename\": \"磁共振3\",
+			\"patientname\": \"刘*堂\",
+			\"callmessage\": \"请103. 刘*堂到磁共振3就诊\",
+			\"status\": \"0\",
+			\"calltime\": null,
+			\"callno\": \"103.\",
+			\"callvoice\": \"请103. 11到磁共振3就诊\",
+			\"Brxm01\": \"11\"
+		}, {
+			\"officename\": \"磁共振4\",
+			\"patientname\": \"黄*瑜\",
+			\"callmessage\": \"请104 黄*瑜到磁共振4就诊\",
+			\"status\": \"0\",
+			\"calltime\": null,
+			\"callno\": \"104\",
+			\"callvoice\": \"请104 12到磁共振4就诊\",
+			\"Brxm01\": \"12\"
+		}, {
+			\"officename\": \"磁共振5\",
+			\"patientname\": \"严*琼\",
+			\"callmessage\": \"请105 严*琼到磁共振5就诊\",
+			\"status\": \"0\",
+			\"calltime\": null,
+			\"callno\": \"105\",
+			\"callvoice\": \"请105 13到磁共振5就诊\",
+			\"Brxm01\": \"13\"
+		}]
+	}, {
+		\"queuename\": \"超声\",
+		\"patients\": [{
+			\"officename\": null,
+			\"patientname\": \"胡*蓉\",
+			\"callmessage\": \"请1 胡*蓉到null就诊\",
+			\"status\": \"0\",
+			\"calltime\": \"15:10:20\",
+			\"callno\": \"1\",
+			\"callvoice\": \"请1 1到null就诊\",
+			\"Brxm01\": \"1\"
+		}, {
+			\"officename\": \"彩超（2）\",
+			\"patientname\": \"蔡*雄\",
+			\"callmessage\": \"请2 蔡*雄到彩超（2）就诊\",
+			\"status\": \"4\",
+			\"calltime\": \"15:14:25\",
+			\"callno\": \"2\",
+			\"callvoice\": \"请2 2到彩超（2）就诊\",
+			\"Brxm01\": \"2\"
+		}, {
+			\"officename\": \"彩超（3）\",
+			\"patientname\": \"欧*美\",
+			\"callmessage\": \"请3 欧*美到彩超（3）就诊\",
+			\"status\": \"4\",
+			\"calltime\": \"17:19:28\",
+			\"callno\": \"3\",
+			\"callvoice\": \"请3 3到彩超（3）就诊\",
+			\"Brxm01\": \"3\"
+		}, {
+			\"officename\": null,
+			\"patientname\": \"余*玉\",
+			\"callmessage\": \"请4 余*玉到null就诊\",
+			\"status\": \"0\",
+			\"calltime\": \"17:19:29\",
+			\"callno\": \"4\",
+			\"callvoice\": \"请4 4到null就诊\",
+			\"Brxm01\": \"4\"
+		}, {
+			\"officename\": null,
+			\"patientname\": \"胡*蓉\",
+			\"callmessage\": \"请5 胡*蓉到null就诊\",
+			\"status\": \"0\",
+			\"calltime\": null,
+			\"callno\": \"5\",
+			\"callvoice\": \"请5 5到null就诊\",
+			\"Brxm01\": \"5\"
+		}, {
+			\"officename\": \"彩超（6）\",
+			\"patientname\": \"蔡*雄\",
+			\"callmessage\": \"请6 蔡*雄到彩超（6）就诊\",
+			\"status\": \"4\",
+			\"calltime\": \"17:19:29\",
+			\"callno\": \"6\",
+			\"callvoice\": \"请6 6到彩超（6）就诊\",
+			\"Brxm01\": \"6\"
+		}, {
+			\"officename\": \"\",
+			\"patientname\": \"欧*美\",
+			\"callmessage\": \"请7 欧*美到就诊\",
+			\"status\": \"0\",
+			\"calltime\": null,
+			\"callno\": \"7\",
+			\"callvoice\": \"请7 7到就诊\",
+			\"Brxm01\": \"7\"
+		}, {
+			\"officename\": \"彩超（8）\",
+			\"patientname\": \"欧*美\",
+			\"callmessage\": \"请8 欧*美到彩超（8）就诊\",
+			\"status\": \"0\",
+			\"calltime\": null,
+			\"callno\": \"8\",
+			\"callvoice\": \"请8 8到彩超（8）就诊\",
+			\"Brxm01\": \"8\"
+		}, {
+			\"officename\": \"彩超（8）\",
+			\"patientname\": \"欧*美\",
+			\"callmessage\": \"请9 欧*美到彩超（8）就诊\",
+			\"status\": \"0\",
+			\"calltime\": null,
+			\"callno\": \"9\",
+			\"callvoice\": \"请9 9到彩超（8）就诊\",
+			\"Brxm01\": \"9\"
+		}, {
+			\"officename\": \"彩超（8）\",
+			\"patientname\": \"欧*美\",
+			\"callmessage\": \"请10 欧*美到彩超（8）就诊\",
+			\"status\": \"0\",
+			\"calltime\": null,
+			\"callno\": \"10\",
+			\"callvoice\": \"请10 10到彩超（8）就诊\",
+			\"Brxm01\": \"10\"
+		}, {
+			\"officename\": \"彩超（8）\",
+			\"patientname\": \"欧*美\",
+			\"callmessage\": \"请11 欧*美到彩超（8）就诊\",
+			\"status\": \"0\",
+			\"calltime\": null,
+			\"callno\": \"11\",
+			\"callvoice\": \"请11 11到彩超（8）就诊\",
+			\"Brxm01\": \"11\"
+		}, {
+			\"officename\": \"彩超（8）\",
+			\"patientname\": \"欧*美\",
+			\"callmessage\": \"请12 欧*美到彩超（8）就诊\",
+			\"status\": \"0\",
+			\"calltime\": null,
+			\"callno\": \"12\",
+			\"callvoice\": \"请12 12到彩超（8）就诊\",
+			\"Brxm01\": \"12\"
+		}, {
+			\"officename\": \"彩超（8）\",
+			\"patientname\": \"欧*美\",
+			\"callmessage\": \"请13 欧*美到彩超（8）就诊\",
+			\"status\": \"0\",
+			\"calltime\": null,
+			\"callno\": \"13\",
+			\"callvoice\": \"请13 13到彩超（8）就诊\",
+			\"Brxm01\": \"13\"
+		}]
+	}]
+}"
+			</item>
+        <item>{\"queues\": []}</item>
+    </string-array>
+
+</resources>

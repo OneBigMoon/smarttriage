@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/ll1"
+        style="@style/setting_line"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/setting_text1"
+            android:text="服务器地址："/>
+        <EditText
+            android:id="@+id/et1"
+            style="@style/setting_text2"
+            android:text="二级分诊设备"
+            android:singleLine="true"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll2"
+        style="@style/setting_line"
+        android:layout_below="@+id/ll1"
+        android:orientation="horizontal"
+        android:visibility="visible">
+        <TextView
+            style="@style/setting_text1"
+            android:text="服务器端口："/>
+        <EditText
+            android:id="@+id/et2"
+            style="@style/setting_text2"
+            android:text="vc12334"
+            android:singleLine="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll4"
+        style="@style/setting_line"
+        android:layout_below="@+id/ll3"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/setting_text1"
+            android:text="测试连接："/>
+        <LinearLayout
+            style="@style/setting_text2">
+            <TextView
+                android:id="@+id/et4"
+                style="@style/setting_button2"
+                android:clickable="true"
+                android:text="开始测试"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/setting_line_btn">
+        <Button
+            android:id="@+id/btn_cancle"
+            style="@style/setting_button1"
+            android:text="取消"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btn_ok"
+            style="@style/setting_button2"
+            android:text="确定" />
+    </LinearLayout>
+</LinearLayout>

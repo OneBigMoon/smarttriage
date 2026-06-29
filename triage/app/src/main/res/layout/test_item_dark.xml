@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+    <TextView
+        android:id="@+id/winno"
+        android:tag="winno"
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        style="@style/lever1_item_dark"
+        android:background="@color/color_4DA9C2"
+        android:textColor="@color/text2"/>
+    <TextView
+        android:id="@+id/no0"
+        android:tag="no0"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        style="@style/lever1_item_dark"/>
+    <TextView
+        android:id="@+id/no1"
+        android:tag="no1"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        style="@style/lever1_item_dark"/>
+    <TextView
+        android:id="@+id/no2"
+        android:tag="no2"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        style="@style/lever1_item_dark"/>
+    <TextView
+        android:id="@+id/no3"
+        android:tag="no3"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        style="@style/lever1_item_dark"/>
+    <TextView
+        android:id="@+id/no4"
+        android:tag="no4"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        style="@style/lever1_item_dark"/>
+</LinearLayout>

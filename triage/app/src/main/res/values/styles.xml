@@ -1,0 +1,328 @@
+<resources>
+    parent="Theme.AppCompat.Light">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/text4</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+    <style name="lever1_title" >
+        <item name="android:textColor">#F6FCFC</item>
+        <item name="android:background">#00A0D9</item>
+        <item name="android:textSize">66px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginRight">3px</item>
+    </style>
+    <style name="lever1_item_light" >
+        <item name="android:textColor">#006085</item>
+        <item name="android:background">#b6dbfb</item>
+        <item name="android:textSize">56px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginRight">3px</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="lever1_item_dark" >
+        <item name="android:textColor">#006085</item>
+        <item name="android:background">#a7d6f9</item>
+        <item name="android:textSize">56px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginRight">3px</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="item_drug_second" >
+        <item name="android:textColor">@color/item_drug_second_text</item>
+        <item name="android:textSize">56px</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="settings_title_iv">
+        <item name="android:layout_width">@dimen/settings_title_h</item>
+        <item name="android:layout_height">@dimen/settings_title_h</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:padding">@dimen/settings_title_icon_padding</item>
+        <item name="android:contentDescription">@null</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="settings_ly">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin40</item>
+        <item name="android:layout_marginRight">@dimen/margin40</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:orientation">vertical</item>
+        <!--<item name=" android:focusable">true</item>-->
+        <!--<item name=" android:focusableInTouchMode">true</item>-->
+    </style>
+    <style name="settings_drop_button">
+        <item name="android:layout_width">36px</item>
+        <item name="android:layout_height">36px</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginRight">@dimen/margin20</item>
+        <item name="android:contentDescription">@null</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="settings_edit">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/settings_line_h</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:background">@drawable/settings_edit_bg</item>
+        <item name="colorAccent">@android:color/holo_red_dark</item>
+        <!--<item name="android:layout_marginTop">@dimen/margin20</item>-->
+        <item name="android:paddingLeft">@dimen/margin40</item>
+        <item name="android:paddingRight">@dimen/margin60</item>
+        <item name="android:textSize">@dimen/text_size30</item>
+        <item name="android:textColor">@color/edit_text_focus</item>
+        <item name="android:textColorHint">@color/edit_text_unfocus</item>
+        <item name="android:imeOptions">flagNoExtractUi</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textCursorDrawable">@drawable/color_cursor</item>
+        <!--<item name="android:focusable">true</item>-->
+        <!--<item name="android:focusableInTouchMode">true</item>-->
+    </style>
+
+    <style name="second_lever1_doctor1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textSize">@dimen/text_size30</item>
+        <item name="android:textColor">@color/text4</item>
+    </style>
+
+    <style name="second_lever1_doctor2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textSize">@dimen/text_size30</item>
+        <item name="android:textColor">@color/text4</item>
+    </style>
+
+    <style name="second_lever1_doctor1_port">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size36</item>
+        <item name="android:textColor">@color/text4</item>
+    </style>
+
+    <style name="second_lever1_doctor2_port">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_marginLeft">20px</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="colorAccent">@android:color/holo_red_dark</item>
+        <item name="android:textSize">@dimen/text_size36</item>
+        <item name="android:textColor">@color/text4</item>
+    </style>
+
+    <style name="second_call_title">
+        <item name="android:layout_width">246px</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">59px</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="colorAccent">@android:color/holo_red_dark</item>
+        <item name="android:textSize">@dimen/text_size60</item>
+        <item name="android:textColor">@color/text1</item>
+    </style>
+
+    <style name="second_call">
+        <item name="android:layout_width">380px</item>
+        <item name="android:layout_height">79px</item>
+        <item name="android:layout_marginLeft">20px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/shape_gradient_2</item>
+        <item name="colorAccent">@android:color/holo_red_dark</item>
+        <item name="android:textSize">@dimen/text_size48</item>
+        <item name="android:textColor">@color/text5</item>
+
+    </style>
+
+    <style name="radio">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">116px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/radio_selector</item>
+        <item name="android:textSize">@dimen/text_size36</item>
+        <item name="android:textColor">@color/text1</item>
+    </style>
+
+    <style name="setting_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">100px</item>
+    </style>
+    <style name="setting_line_btn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">bottom|center_horizontal</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingBottom">@dimen/margin20</item>
+    </style>
+    <style name="setting_text1">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:textSize">@dimen/text_size36</item>
+        <item name="android:textColor">@color/text4</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="setting_text2">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingLeft">@dimen/margin20</item>
+        <item name="android:paddingRight">@dimen/margin20</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:textSize">@dimen/text_size36</item>
+        <item name="android:textColor">@color/text4</item>
+    </style>
+
+    <style name="setting_edit">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginBottom">5px</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:textSize">@dimen/text_size36</item>
+        <item name="android:textColor">@color/text4</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="setting_drop">
+        <item name="android:layout_width">32px</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin20</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="setting_button1">
+        <item name="android:layout_width">300px</item>
+        <item name="android:layout_height">96px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">@dimen/margin40</item>
+        <item name="android:background">@drawable/button_bg1</item>
+        <item name="android:textSize">@dimen/text_size36</item>
+        <item name="android:textColor">@color/text4</item>
+    </style>
+
+    <style name="setting_button2">
+        <item name="android:layout_width">300px</item>
+        <item name="android:layout_height">96px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/button_bg2</item>
+        <item name="android:textSize">@dimen/text_size36</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="time">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/text_size48</item>
+        <item name="android:textColor">#FF063C4B</item>
+    </style>
+    <style name="time_fuqing">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/text_size48</item>
+        <item name="android:textColor">#57585A</item>
+    </style>
+    <style name="time_port">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/text_size36</item>
+        <item name="android:textColor">#FF063C4B</item>
+    </style>
+    <style name="time_fjykfsdeyy">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">42px</item>
+        <item name="android:textColor">#164958</item>
+    </style>
+    <style name="time_port_fuqing">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/text_size36</item>
+        <item name="android:textColor">#57585A</item>
+    </style>
+
+    <style name="item_drag_first" >
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textColor">#006085</item>
+        <item name="android:textSize">85px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+<!--    <style name="njs_item_drag_first" >-->
+<!--        <item name="android:layout_height">0dp</item>-->
+<!--        <item name="android:textColor">#ffffff</item>-->
+<!--        <item name="android:textSize">85px</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--        <item name="android:gravity">center</item>-->
+<!--        <item name="android:ellipsize">marquee</item>-->
+<!--        <item name="android:focusable">true</item>-->
+<!--        <item name="android:focusableInTouchMode">true</item>-->
+<!--        <item name="android:singleLine">true</item>-->
+<!--    </style>-->
+
+    <style name="njs_item_drag_first" >
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">95px</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="second_call_name" >
+        <item name="android:textColor">@color/item_drug_second_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+</resources>

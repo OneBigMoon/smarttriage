@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#a8d2e8">
+    <ImageView
+        android:id="@+id/iv"
+        style="@style/item_drag_first"
+        android:layout_width="80px"
+        android:layout_marginHorizontal="@dimen/margin20"
+        android:scaleType="fitCenter"
+        android:src="@drawable/message"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHeight_percent="0.6"
+        app:layout_constraintDimensionRatio="1"/>
+    <TextView
+        android:id="@+id/tv1"
+        style="@style/item_drag_first"
+        android:layout_width="wrap_content"
+        android:gravity="right|center_vertical"
+        android:text="请  "
+        app:layout_constraintLeft_toRightOf="@+id/iv"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+    <TextView
+        android:id="@+id/no_name"
+        style="@style/item_drag_first"
+        android:tag="no_name"
+        android:layout_width="0dp"
+        android:textColor="#D60000"
+        android:background="@drawable/shape_gradient_light"
+        app:layout_constraintLeft_toRightOf="@+id/tv1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.8"/>
+    <TextView
+        android:id="@+id/tv2"
+        style="@style/item_drag_first"
+        android:layout_width="wrap_content"
+        android:text="  到  "
+        app:layout_constraintLeft_toRightOf="@+id/no_name"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"/>
+    <TextView
+        android:id="@+id/winno"
+        style="@style/item_drag_first"
+        android:layout_marginRight="@dimen/margin20"
+        android:tag="winname"
+        android:layout_width="0dp"
+        android:textColor="#D60000"
+        android:background="@drawable/shape_gradient_light"
+        app:layout_constraintLeft_toRightOf="@+id/tv2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.8"
+        app:layout_constraintRight_toRightOf="parent"/>
+</android.support.constraint.ConstraintLayout>

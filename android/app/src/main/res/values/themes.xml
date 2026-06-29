@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Triage" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#1A1A2E</item><item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#FFD700</item><item name="android:statusBarColor">#000000</item>
+    </style>
+    <style name="Theme.Triage.Fullscreen" parent="Theme.Triage">
+        <item name="android:windowFullscreen">true</item><item name="android:windowKeepScreenOn">true</item>
+    </style>
+</resources>

@@ -1,0 +1,181 @@
+apply plugin: 'com.android.application'
+//java -jar signapk.jar platform.x509.pem platform.pk8 triage-1.5.20190330-release.apk triage-1.5.20190330-release-sign.apk
+
+android {
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    useLibrary 'org.apache.http.legacy'
+    compileSdkVersion 29
+    defaultConfig {
+        applicationId "com.wcjk.triage"
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 76
+        versionName "2.4.20" //+ new Date().format("yyyyMMdd")
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+        ndk {
+            abiFilters "armeabi"//只支持32位
+//            abiFilters 'armeabi', 'armeabi-v7a', 'arm64-v8a',"x86"
+        }
+    }
+    signingConfigs {
+        release {
+            keyAlias 'wcjk'
+            keyPassword 'wcjk1234'
+            storeFile file('wcjk.jks')
+//            storeFile file('../Signature/wcjk.jks')
+            storePassword 'wcjk1234'
+        }
+        debug {
+            keyAlias 'wcjk'
+            keyPassword 'wcjk1234'
+            storeFile file('wcjk.jks')
+            storePassword 'wcjk1234'
+        }
+    }
+
+    buildTypes {
+        release {
+            buildConfigField "String", "SERVER", "\"\""
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        debug {
+            buildConfigField "String", "SERVER", "\"42.198.84.82:7016\""
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+        }
+    }
+
+
+    configurations {
+        all {
+            exclude group: 'org.json', module: 'json'
+        }
+    }
+    applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "triage-" + defaultConfig.versionName + "-${variant.productFlavors[0].name}-" + buildType.name + ".apk"
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    productFlavors {
+        //长乐区医院
+        clqyy {
+            flavorDimensions "default"
+            buildConfigField("Integer", "DrugSecondLineNum", "4")
+            buildConfigField("boolean", "isSecondCall", "false")
+        }
+        //泉州中医院
+        qzzyy {
+            flavorDimensions "default"
+            buildConfigField("Integer", "DrugSecondLineNum", "4")
+            buildConfigField("boolean", "isSecondCall", "false")
+        }
+        //泉州附二医院
+        qzfe3128 {
+            flavorDimensions "default"
+            buildConfigField("Integer", "DrugSecondLineNum", "4")
+            buildConfigField("boolean", "isSecondCall", "true")
+        }
+
+        //泉州附二医院
+        qzfe3188A {
+            flavorDimensions "default"
+            buildConfigField("Integer", "DrugSecondLineNum", "4")
+            buildConfigField("boolean", "isSecondCall", "true")
+        }
+        //泉州附二医院
+        qzfe3188B {
+            flavorDimensions "default"
+            buildConfigField("Integer", "DrugSecondLineNum", "4")
+            buildConfigField("boolean", "isSecondCall", "true")
+        }
+
+        //福州市皮肤病院
+        fzpfy3128 {
+            flavorDimensions "default"
+            buildConfigField("Integer", "DrugSecondLineNum", "1")
+            buildConfigField("boolean", "isSecondCall", "false")
+        }
+
+        //泉州德化中医院
+        dhzyy {
+            flavorDimensions "default"
+            buildConfigField("Integer", "DrugSecondLineNum", "4")
+            buildConfigField("boolean", "isSecondCall", "true")
+        }
+
+        //漳州平和病院
+        zzph {
+            flavorDimensions "default"
+            buildConfigField("Integer", "DrugSecondLineNum", "4")
+            buildConfigField("boolean", "isSecondCall", "false")
+        }
+
+        //泉州光前医院
+        qzgqyy {
+            flavorDimensions "default"
+            buildConfigField("Integer", "DrugSecondLineNum", "4")
+            buildConfigField("boolean", "isSecondCall", "true")
+        }
+        //泉州光前医院
+        mhey {
+            flavorDimensions "default"
+            buildConfigField("Integer", "DrugSecondLineNum", "4")
+            buildConfigField("boolean", "isSecondCall", "true")
+        }
+        //泉州德城医院
+        dcyy {
+            flavorDimensions "default"
+            buildConfigField("Integer", "DrugSecondLineNum", "4")
+            buildConfigField("boolean", "isSecondCall", "false")
+        }
+        //南靖市医院医院
+        zznj {
+            flavorDimensions "default"
+            buildConfigField("Integer", "DrugSecondLineNum", "4")
+            buildConfigField("boolean", "isSecondCall", "false")
+        }
+    }
+
+}
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.jakewharton:butterknife:8.4.0'
+    annotationProcessor "com.jakewharton:butterknife-compiler:8.4.0"
+    implementation 'org.greenrobot:eventbus:3.0.0'
+    implementation 'io.socket:socket.io-client:1.0.0'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    implementation 'io.reactivex.rxjava2:rxjava:2.0.5'
+    implementation 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.3@aar'
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+    implementation 'com.github.bumptech.glide:glide:4.3.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.3.1'
+    implementation 'me.yokeyword:fragmentation:1.3.6'
+    implementation 'com.github.mjdev:libaums:0.5.5'
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="25px"
+    android:layout_marginBottom="25px"
+    android:layout_marginLeft="22px"
+    android:layout_marginRight="22px"
+    android:orientation="vertical"
+    android:background="@android:color/transparent">
+
+    <include layout="@layout/mul_ultrasonic_title"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/lv"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_marginRight="3px"
+            android:background="#b6dbfb"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/margin5">
+        </android.support.v7.widget.RecyclerView>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/lv2"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_marginRight="3px"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/margin5"
+            android:background="#b6dbfb">
+        </android.support.v7.widget.RecyclerView>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_pass"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/margin5"
+            android:background="#b6dbfb">
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="@dimen/first_lever1_title_h"
+    android:background="@android:color/transparent">
+    <TextView
+        android:id="@+id/title_room"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        style="@style/lever1_title"
+        android:text="诊室"/>
+    <!--<TextView-->
+        <!--android:id="@+id/title_profession"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--style="@style/lever1_title"-->
+        <!--android:text="专业"/>-->
+    <TextView
+        android:id="@+id/title_doctor"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        style="@style/lever1_title"
+        android:text="医师"/>
+    <TextView
+        android:id="@+id/title_on"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        style="@style/lever1_title"
+        android:text="正在就诊"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/title_wait"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="1.3"-->
+        <!--style="@style/lever1_title"-->
+        <!--android:text="等候就诊"/>-->
+    <!--<TextView-->
+        <!--android:id="@+id/title_standby"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="2.2"-->
+        <!--style="@style/lever1_title"-->
+        <!--android:text="过诊病人"-->
+        <!--android:layout_marginRight="0dp"/>-->
+</LinearLayout>

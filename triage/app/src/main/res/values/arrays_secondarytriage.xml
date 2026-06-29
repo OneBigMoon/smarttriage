@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="secondarytriage">
+        <item>
+{
+	\"patientcount\": \"2\",
+	\"doctorphoto\": null,
+	\"doctorname\": \"林夏鸿\",
+	\"clinicname\": \"内科门诊18内分泌科\",
+	\"patients\": [{
+		\"calltime\": \"13:33:10\",
+		\"brxm\": \"苏*梅\",
+		\"callvoice\": \"请Y013号苏春梅到内科门诊18内分泌科就诊\",
+		\"callmessage\": \"请 Y013号 苏*梅 到 内科门诊18内分泌科 就诊\",
+		\"status\": 1,
+		\"brxmfull\": \"苏春梅\",
+		\"ticket\": \"Y013\"
+	}, {
+		\"calltime\": \"13:33:14\",
+		\"brxm\": \"王*转\",
+		\"callvoice\": \"请Y018号王丽转到内科门诊18内分泌科就诊\",
+		\"callmessage\": \"请 Y018号 王*转 到 内科门诊18内分泌科 就诊\",
+		\"status\": 1,
+		\"brxmfull\": \"王丽转\",
+		\"ticket\": \"Y018\"
+	}, {
+		\"brxm\": \"王*转\",
+		\"callvoice\": \"请Y020号王丽转到内科门诊18内分泌科就诊\",
+		\"callmessage\": \"请 Y020号 王*转 到 内科门诊18内分泌科 就诊\",
+		\"status\": 2,
+		\"brxmfull\": \"王丽转\",
+		\"ticket\": \"0020\"
+	}, {
+		\"brxm\": \"王*转\",
+		\"callvoice\": \"请Y019号王丽转到内科门诊18内分泌科就诊\",
+		\"callmessage\": \"请 Y019号 王*转 到 内科门诊18内分泌科 就诊\",
+		\"status\": 2,
+		\"brxmfull\": \"王丽转\",
+		\"ticket\": \"Y019\"
+	}],
+	\"doctortitle\": \"主任医师\",
+	\"doctorintro\": \"擅长糖尿病及各种糖尿病急慢性并发症、甲状腺疾病、肥胖、痛风、骨质疏松、矮小症、性早熟、内分泌性高血压、血脂紊乱等内分泌代谢性疾病的诊治。\",
+	\"screenid\": 4009,
+	\"doctorno\": 1224,
+	\"doctorschedule\": \"鲤城:星期三上午 东海:星期一上午   ,星期四上午\"
+}
+        </item>
+
+        <item>
+{
+	\"patientcount\": \"2\",
+	\"doctorphoto\": null,
+	\"doctorname\": \"林夏鸿\",
+	\"clinicname\": \"内科门诊18内分泌科\",
+	\"patients\": [{
+		\"calltime\": \"13:33:12\",
+		\"brxm\": \"苏*梅\",
+		\"callvoice\": \"请Y015号苏春梅到内科门诊18内分泌科就诊\",
+		\"callmessage\": \"请 Y015号 苏*梅 到 内科门诊18内分泌科 就诊\",
+		\"status\": 1,
+		\"brxmfull\": \"苏春梅\",
+		\"ticket\": \"Y015\"
+	},{
+		\"calltime\": \"13:33:12\",
+		\"brxm\": \"苏*梅\",
+		\"callvoice\": \"请Y014号苏春梅到内科门诊18内分泌科就诊\",
+		\"callmessage\": \"请 Y014号 苏*梅 到 内科门诊18内分泌科 就诊\",
+		\"status\": 1,
+		\"brxmfull\": \"苏春梅\",
+		\"ticket\": \"Y014\"
+	},{
+		\"calltime\": \"13:33:12\",
+		\"brxm\": \"苏*梅\",
+		\"callvoice\": \"请Y013号苏春梅到内科门诊18内分泌科就诊\",
+		\"callmessage\": \"请 Y013号 苏*梅 到 内科门诊18内分泌科 就诊\",
+		\"status\": 1,
+		\"brxmfull\": \"苏春梅\",
+		\"ticket\": \"Y013\"
+	},{
+		\"calltime\": \"13:33:12\",
+		\"brxm\": \"苏*梅\",
+		\"callvoice\": \"请Y016号苏春梅到内科门诊18内分泌科就诊\",
+		\"callmessage\": \"请 Y016号 苏*梅 到 内科门诊18内分泌科 就诊\",
+		\"status\": 2,
+		\"brxmfull\": \"苏春梅\",
+		\"ticket\": \"Y016\"
+	}],
+	\"doctortitle\": \"主任医师\",
+	\"doctorintro\": \"擅长糖尿病及各种糖尿病急慢性并发症、甲状腺疾病、肥胖、痛风、骨质疏松、矮小症、性早熟、内分泌性高血压、血脂紊乱等内分泌代谢性疾病的诊治。\",
+	\"screenid\": 4009,
+	\"doctorno\": 1224,
+	\"doctorschedule\": \"鲤城:星期三上午 东海:星期一上午   ,星期四上午\"
+}
+        </item>
+        <item>
+{
+	\"patients\": [{
+		\"ticket\": \"0002\",
+		\"brxm\": \"张*攀\",
+		\"calltime\": \"\",
+		\"callmessage\": \"请 0002号 陈*伟 到 儿科诊室3 就诊\",
+		\"callvoice\": \"请0002号陈智伟到儿科诊室3就诊\",
+		\"brxmfull\": \"张荣攀\",
+		\"status\": 1
+	}, {
+		\"ticket\": \"Y003\",
+		\"brxm\": \"张*攀\",
+		\"calltime\": \"\",
+		\"callmessage\": \"请 0003号 陈*伟 到 儿科诊室3 就诊\",
+		\"callvoice\": \"请0003号陈智伟到儿科诊室3就诊\",
+		\"brxmfull\": \"张荣攀\",
+		\"status\": 2
+	}, {
+		\"ticket\": \"0005\",
+		\"brxm\": \"张*攀\",
+		\"calltime\": \"\",
+		\"callmessage\": \"请 0005号 陈*伟 到 儿科诊室3 就诊\",
+		\"callvoice\": \"请0005号陈智伟到儿科诊室3就诊\",
+		\"brxmfull\": \"张荣攀\",
+		\"status\": 2
+	}, {
+		\"ticket\": \"0004\",
+		\"brxm\": \"张*攀\",
+		\"calltime\": \"\",
+		\"callmessage\": \"请 0004号 陈*伟 到 儿科诊室3 就诊\",
+		\"callvoice\": \"请0004号陈智伟到儿科诊室3就诊\",
+		\"brxmfull\": \"张荣攀\",
+		\"status\": 2
+	}],
+	\"clinicname\": \"外科门诊25脊柱外科\",
+	\"screenid\": 902,
+	\"doctorname\": \"俞海明\",
+	\"doctortitle\": \"副主任医师\",
+	\"doctorschedule\": \"星期四上午   ,星期五鲤城下午\",
+	\"doctorphoto\": null,
+	\"doctorno\": 926,
+	\"patientcount\": \"1\"
+}
+		</item>
+        <item>
+{   \"patientcount\": \"\",
+	\"doctorname\": \"\",
+	\"clinicname\": \"\",
+	\"patients\": [],
+	\"doctortitle\": \"\",
+	\"doctorintro\": \"\",
+	\"doctorfeature\": \"\",
+	\"doctorphoto\": \"\",
+	\"doctorschedule\": \"\"
+}     </item>
+    </string-array>
+</resources>

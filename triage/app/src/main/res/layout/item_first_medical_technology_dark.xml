@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+    <com.wcjk.triage.common.MarqueeText
+        android:id="@+id/winname"
+        android:tag="winname"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        style="@style/lever1_item_dark"/>
+    <com.wcjk.triage.common.MarqueeText
+        android:id="@+id/call"
+        android:tag="call"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        style="@style/lever1_item_dark"
+        android:textColor="#44B034"/>
+    <com.wcjk.triage.common.MarqueeText
+        android:id="@+id/waitno"
+        android:tag="waitno"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        style="@style/lever1_item_dark" />
+    <!--<com.wcjk.triage.common.MarqueeText-->
+        <!--android:id="@+id/waitno"-->
+        <!--android:tag="waitno"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="1.3"-->
+        <!--style="@style/lever1_item_dark" />-->
+    <!--<com.wcjk.triage.common.MarqueeText-->
+        <!--android:id="@+id/standby"-->
+        <!--android:tag="passno"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="2.2"-->
+        <!--style="@style/lever1_item_dark"-->
+        <!--android:layout_marginRight="0dp"/>-->
+</LinearLayout>

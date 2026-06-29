@@ -1,0 +1,30 @@
+services:
+  smarttriage:
+    build: .
+    image: smarttriage:local
+    environment:
+      NODE_ENV: development
+      SMARTTRIAGE_MONGO_URI: mongodb://mongo:27017/smarttriage
+      SMARTTRIAGE_REDIS_HOST: redis
+      SMARTTRIAGE_REDIS_PORT: 6379
+      SMARTTRIAGE_REDIS_DB: 0
+    ports:
+      - "7016:7016"
+    depends_on:
+      - mongo
+      - redis
+    restart: unless-stopped
+
+  mongo:
+    image: mongo:4.4
+    volumes:
+      - mongo_data:/data/db
+
+  redis:
+    image: redis:6
+    volumes:
+      - redis_data:/data
+
+volumes:
+  mongo_data:
+  redis_data:

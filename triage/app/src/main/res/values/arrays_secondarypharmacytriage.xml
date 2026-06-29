@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="secondarypharmacytriage">
+        <item>
+           {
+	\"patiens\": [{
+		\"no\": 3030,
+		\"name\": \"石*头\",
+		\"calltimes\": 1,
+		\"winno\": 1,
+		\"calltime\": \"17:52:11\"
+	}, {
+		\"no\": 3101,
+		\"name\": \"王暴为雨\",
+		\"calltimes\": 1,
+		\"winno\": 1,
+		\"calltime\": \"17:52:11\"
+	}, {
+		\"no\": 3102,
+		\"name\": \"苏秦\",
+		\"calltimes\": 1,
+		\"winno\": 1,
+		\"calltime\": \"17:52:11\"
+	}, {
+		\"no\": 3103,
+		\"name\": \"陈阿娇\",
+		\"calltimes\": 1,
+		\"winno\": 1,
+		\"calltime\": \"17:52:11\"
+	}, {
+		\"no\": 3104,
+		\"name\": \"李圆圆\",
+		\"calltimes\": 1,
+		\"winno\": 1,
+		\"calltime\": \"17:52:11\"
+	}],
+	\"deptno\": 1,
+	\"winno\": 1
+}
+        </item>
+
+
+		<item>
+           {
+	\"patiens\": [],
+	\"deptno\": 1,
+	\"winno\": \"\"
+}
+        </item>
+    </string-array>
+</resources>

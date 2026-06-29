@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="primarytriage_old">
+        <item>
+            {
+	\"queues\": [{
+		\"departmentid\": 67,
+		\"officename\": \"儿科诊室3\",
+		\"doctorname\": \"徐丽萍\",
+		\"callno\": \"Y050\",
+		\"waitno\": \"Y051\",
+		\"patientname\": \"陈*伟\",
+		\"passno\": null,
+		\"callmessage\": \"请 Y050号 陈*伟 到 儿科诊室3 就诊\",
+		\"callvoice\": \"请Y050号陈智伟到儿科诊室3就诊\"
+	}, {
+		\"departmentid\": 67,
+		\"officename\": \"儿科诊室5\",
+		\"doctorname\": \"叶冬青\",
+		\"callno\": \"Y050\",
+		\"waitno\": \"Y074\",
+		\"patientname\": \"林*曦\",
+		\"passno\": null,
+		\"callmessage\": \"请 Y050号 林*曦 到 儿科诊室5 就诊\",
+		\"callvoice\": \"请Y050号林璟曦到儿科诊室5就诊\"
+	}, {
+		\"departmentid\": 67,
+		\"officename\": \"儿科诊室1\",
+		\"doctorname\": \"叶冬青\",
+		\"callno\": \"Y051\",
+		\"waitno\": \"Y057\",
+		\"patientname\": \"庄*嘉\",
+		\"passno\": null,
+		\"callmessage\": \"请 Y051号 庄*嘉 到 儿科诊室1 就诊\",
+		\"callvoice\": \"请Y051号庄礼嘉到儿科诊室1就诊\"
+	}, {
+		\"departmentid\": 70,
+		\"officename\": \"普通内科诊室1\",
+		\"doctorname\": \"俞艳春\",
+		\"callno\": \"Y051\",
+		\"waitno\": \"Y044\",
+		\"patientname\": \"赖*飞\",
+		\"passno\": null,
+		\"callmessage\": \"请 Y051号 赖*飞 到 普通内科诊室1 就诊\",
+		\"callvoice\": \"请Y051号赖云飞到普通内科诊室1就诊\"
+	}, {
+		\"departmentid\": 67,
+		\"officename\": \"儿科诊室2\",
+		\"doctorname\": \"施林昌\",
+		\"callno\": \"Y052\",
+		\"waitno\": \"0042\",
+		\"patientname\": \"李*欣\",
+		\"passno\": null,
+		\"callmessage\": \"请 Y052号 李*欣 到 儿科诊室2 就诊\",
+		\"callvoice\": \"请Y052号李悦欣到儿科诊室2就诊\"
+	}, {
+		\"departmentid\": 67,
+		\"officename\": \"儿科诊室4\",
+		\"doctorname\": \"施林昌\",
+		\"callno\": \"Y052\",
+		\"waitno\": \"0042\",
+		\"patientname\": \"李*欣\",
+		\"passno\": null,
+		\"callmessage\": \"请 Y052号 李*欣 到 儿科诊室4 就诊\",
+		\"callvoice\": \"请Y052号李悦欣到儿科诊室4就诊\"
+	}, {
+		\"departmentid\": 67,
+		\"officename\": \"儿科诊室5\",
+		\"doctorname\": \"施林昌\",
+		\"callno\": \"Y052\",
+		\"waitno\": \"0042\",
+		\"patientname\": \"李*欣\",
+		\"passno\": null,
+		\"callmessage\": \"请 Y052号 李*欣 到 儿科诊室5 就诊\",
+		\"callvoice\": \"请Y052号李悦欣到儿科诊室5就诊\"
+	}]
+}
+        </item>
+        <item>
+        {
+	\"queues\": [{
+		\"departmentid\": 67,
+		\"officename\": \"儿科诊室3\",
+		\"doctorname\": \"徐丽萍\",
+		\"callno\": \"Y050\",
+		\"waitno\": \"Y051\",
+		\"patientname\": \"陈*伟\",
+		\"passno\": null,
+		\"callmessage\": \"请 Y050号 陈*伟 到 儿科诊室3 就诊\",
+		\"callvoice\": \"请Y050号陈智伟到儿科诊室3就诊\"
+	}, {
+		\"departmentid\": 67,
+		\"officename\": \"儿科诊室5\",
+		\"doctorname\": \"叶冬青\",
+		\"callno\": \"Y050\",
+		\"waitno\": \"Y074\",
+		\"patientname\": \"林*曦\",
+		\"passno\": null,
+		\"callmessage\": \"请 Y050号 林*曦 到 儿科诊室5 就诊\",
+		\"callvoice\": \"请Y050号林璟曦到儿科诊室5就诊\"
+	}, {
+		\"departmentid\": 67,
+		\"officename\": \"儿科诊室1\",
+		\"doctorname\": \"叶冬青\",
+		\"callno\": \"Y051\",
+		\"waitno\": \"Y057\",
+		\"patientname\": \"庄*嘉\",
+		\"passno\": null,
+		\"callmessage\": \"请 Y051号 庄*嘉 到 儿科诊室1 就诊\",
+		\"callvoice\": \"请Y051号庄礼嘉到儿科诊室1就诊\"
+	}, {
+		\"departmentid\": 70,
+		\"officename\": \"普通内科诊室1\",
+		\"doctorname\": \"俞艳春\",
+		\"callno\": \"Y051\",
+		\"waitno\": \"Y044\",
+		\"patientname\": \"赖*飞\",
+		\"passno\": null,
+		\"callmessage\": \"请 Y051号 赖*飞 到 普通内科诊室1 就诊\",
+		\"callvoice\": \"请Y051号赖云飞到普通内科诊室1就诊\"
+	}, {
+		\"departmentid\": 67,
+		\"officename\": \"儿科诊室2\",
+		\"doctorname\": \"施林昌\",
+		\"callno\": \"Y052\",
+		\"waitno\": \"0042\",
+		\"patientname\": \"李*欣\",
+		\"passno\": null,
+		\"callmessage\": \"请 Y052号 李*欣 到 儿科诊室2 就诊\",
+		\"callvoice\": \"请Y052号李悦欣到儿科诊室2就诊\"
+	}, {
+		\"departmentid\": 67,
+		\"officename\": \"儿科诊室4\",
+		\"doctorname\": \"施林昌\",
+		\"callno\": \"Y052\",
+		\"waitno\": \"0042\",
+		\"patientname\": \"李*欣\",
+		\"passno\": null,
+		\"callmessage\": \"请 Y052号 李*欣 到 儿科诊室4 就诊\",
+		\"callvoice\": \"请Y052号李悦欣到儿科诊室4就诊\"
+	}, {
+		\"departmentid\": 67,
+		\"officename\": \"儿科诊室5\",
+		\"doctorname\": \"施林昌\",
+		\"callno\": \"Y052\",
+		\"waitno\": \"0042\",
+		\"patientname\": \"李*欣\",
+		\"passno\": null,
+		\"callmessage\": \"请 Y052号 李*欣 到 儿科诊室5 就诊\",
+		\"callvoice\": \"请Y052号李悦欣到儿科诊室5就诊\"
+	}]
+}
+        </item>
+        <item>
+         {
+	\"queues\": [{
+		\"departmentid\": 67,
+		\"officename\": \"儿科诊室3\",
+		\"doctorname\": \"徐丽萍\",
+		\"callno\": \"Y050\",
+		\"waitno\": \"Y051\",
+		\"patientname\": \"陈*伟\",
+		\"passno\": null,
+		\"callmessage\": \"请 Y050号 陈*伟 到 儿科诊室3 就诊\",
+		\"callvoice\": \"请Y050号陈智伟到儿科诊室3就诊\"
+	}, {
+		\"departmentid\": 67,
+		\"officename\": \"儿科诊室5\",
+		\"doctorname\": \"叶冬青\",
+		\"callno\": \"Y051\",
+		\"waitno\": \"Y074\",
+		\"patientname\": \"林*曦\",
+		\"passno\": null,
+		\"callmessage\": \"请 Y051号 林*曦 到 儿科诊室5 就诊\",
+		\"callvoice\": \"请Y051号林璟曦到儿科诊室5就诊\"
+	}, {
+		\"departmentid\": 67,
+		\"officename\": \"儿科诊室1\",
+		\"doctorname\": \"叶冬青\",
+		\"callno\": \"Y051\",
+		\"waitno\": \"Y057\",
+		\"patientname\": \"庄*嘉\",
+		\"passno\": null,
+		\"callmessage\": \"请 Y051号 庄*嘉 到 儿科诊室1 就诊\",
+		\"callvoice\": \"请Y051号庄礼嘉到儿科诊室1就诊\"
+	}, {
+		\"departmentid\": 70,
+		\"officename\": \"普通内科诊室1\",
+		\"doctorname\": \"俞艳春\",
+		\"callno\": \"Y051\",
+		\"waitno\": \"Y044\",
+		\"patientname\": \"赖*飞\",
+		\"passno\": null,
+		\"callmessage\": \"请 Y051号 赖*飞 到 普通内科诊室1 就诊\",
+		\"callvoice\": \"请Y051号赖云飞到普通内科诊室1就诊\"
+	}, {
+		\"departmentid\": 67,
+		\"officename\": \"儿科诊室2\",
+		\"doctorname\": \"施林昌\",
+		\"callno\": \"Y052\",
+		\"waitno\": \"0042\",
+		\"patientname\": \"李*欣\",
+		\"passno\": null,
+		\"callmessage\": \"请 Y052号 李*欣 到 儿科诊室2 就诊\",
+		\"callvoice\": \"请Y052号李悦欣到儿科诊室2就诊\"
+	}, {
+		\"departmentid\": 67,
+		\"officename\": \"儿科诊室4\",
+		\"doctorname\": \"施林昌\",
+		\"callno\": \"Y052\",
+		\"waitno\": \"0042\",
+		\"patientname\": \"李*欣\",
+		\"passno\": null,
+		\"callmessage\": \"请 Y052号 李*欣 到 儿科诊室4 就诊\",
+		\"callvoice\": \"请Y052号李悦欣到儿科诊室4就诊\"
+	}, {
+		\"departmentid\": 67,
+		\"officename\": \"儿科诊室5\",
+		\"doctorname\": \"施林昌\",
+		\"callno\": \"Y052\",
+		\"waitno\": \"0042\",
+		\"patientname\": \"李*欣\",
+		\"passno\": null,
+		\"callmessage\": \"请 Y052号 李*欣 到 儿科诊室5 就诊\",
+		\"callvoice\": \"请Y052号李悦欣到儿科诊室5就诊\"
+	}]
+}
+        </item>
+    </string-array>
+
+</resources>
