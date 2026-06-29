@@ -30,8 +30,11 @@ WizardStyle=modern
 PrivilegesRequired=admin
 DisableProgramGroupPage=yes
 ArchitecturesInstallIn64BitMode=x64compatible
-; Windows Server 2008 (NT 6.0) 及以上
-MinVersion=0,6.0
+; 目标系统：Windows Server 2008+ / Windows 7+
+; 注意：Inno Setup 6.7+ 不再支持作为宿主运行在 Vista/Win2008 上
+; 但安装包生成的 SmartTriage.exe 可以运行在 Win2008 上
+; 如果需要在 Win2008 上运行此安装程序，请使用 Inno Setup 5.x 重新编译
+MinVersion=0,6.1
 DisableWelcomePage=no
 
 [Languages]
