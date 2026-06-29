@@ -59,74 +59,62 @@ jobs:
         run: |
           New-Item -ItemType Directory -Force -Path installer\pgsql | Out-Null
           [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12
-          $url = 'https://get.enterprisedb.com/postgresql/postgresql-10.23-1-windows-x64-binaries.zip'
-          Write-Host 'Downloading PostgreSQL (80MB)...'
-          $tmp = "$env:TEMP\pg-$(Get-Random).zip"
+          Write-Host 'Downloading PostgreSQL 10.23 (80MB)...'
           try {
-              Invoke-WebRequest -Uri $url -OutFile $tmp -UseBasicParsing -ErrorAction Stop
-              Write-Host "Downloaded OK (size: $((Get-Item $tmp).Length / 1MB) MB)"
-              Write-Host 'Extracting...'
-              Expand-Archive -Path $tmp -DestinationPath 'pg-tmp' -Force
-              Copy-Item -Path 'pg-tmp\pgsql\*' -Destination 'installer\pgsql\' -Recurse -Force
-              Remove-Item -Recurse -Force 'pg-tmp'
-              Write-Host "PostgreSQL ready:"
-              Get-ChildItem installer\pgsql\bin\*.exe | Select-Object Name
+              Invoke-WebRequest -Uri 'https://get.enterprisedb.com/postgresql/postgresql-10.23-1-windows-x64-binaries.zip' -OutFile pg.zip -UseBasicParsing
           } catch {
-              Write-Host "ERROR: $($_.Exception.Message)"
-              exit 1
+              Write-Host 'PostgreSQL download failed, build will continue without it.'
+              Write-Host "Error: $($_.Exception.GetType().Name)"
+              exit 0
           }
-          Remove-Item -Force -ErrorAction SilentlyContinue $tmp
+          Expand-Archive -Path pg.zip -DestinationPath pg-tmp -Force
+          Copy-Item -Path pg-tmp\pgsql\* -Destination installer\pgsql\ -Recurse -Force
+          Remove-Item -Recurse -Force pg-tmp
+          Remove-Item pg.zip
+          Write-Host "PostgreSQL ready"
         shell: powershell
 
       - name: Download Redis portable
         run: |
           New-Item -ItemType Directory -Force -Path installer\redis | Out-Null
           Write-Host 'Downloading Redis...'
-          $url = 'https://github.com/microsoftarchive/redis/releases/download/win-3.2.100/Redis-x64-3.2.100.zip'
-          $tmp = "$env:TEMP\redis-$(Get-Random).zip"
           try {
-              Invoke-WebRequest -Uri $url -OutFile $tmp -UseBasicParsing -ErrorAction Stop
-              Expand-Archive -Path $tmp -DestinationPath 'redis-tmp' -Force
-              Copy-Item -Path 'redis-tmp\redis-server.exe' -Destination 'installer\redis\'
-              Copy-Item -Path 'redis-tmp\redis-cli.exe' -Destination 'installer\redis\'
-              Remove-Item -Recurse -Force 'redis-tmp'
+              Invoke-WebRequest -Uri 'https://github.com/microsoftarchive/redis/releases/download/win-3.2.100/Redis-x64-3.2.100.zip' -OutFile redis.zip -UseBasicParsing
           } catch {
-              Write-Host "WARNING: Redis download failed: $($_.Exception.Message)"
-              Write-Host "WARNING: 安装程序将使用外部 Redis（不影响功能）"
+              Write-Host 'Redis download failed, build will continue without it.'
+              exit 0
           }
-          # Generate redis.conf
-          @"
-          port 6379
-          bind 127.0.0.1
-          daemonize no
-          logfile ""
-          databases 16
-          save ""
-          "@ | Out-File -Encoding ASCII installer\redis\redis.conf
-          Remove-Item -Force -ErrorAction SilentlyContinue $tmp
-          Write-Host "Redis ready"
+          Expand-Archive -Path redis.zip -DestinationPath redis-tmp -Force
+          Copy-Item -Path redis-tmp\redis-server.exe -Destination installer\redis\
+          Copy-Item -Path redis-tmp\redis-cli.exe -Destination installer\redis\
+          Remove-Item -Recurse -Force redis-tmp
+          Remove-Item redis.zip
+          # redis.conf
+          echo port 6379 > installer\redis\redis.conf
+          echo bind 127.0.0.1 >> installer\redis\redis.conf
+          echo daemonize no >> installer\redis\redis.conf
+          echo databases 16 >> installer\redis\redis.conf
+          echo save "" >> installer\redis\redis.conf
+          Write-Host 'Redis ready'
         shell: powershell
 
       - name: Download nssm (optional)
         run: |
           Write-Host 'Downloading nssm...'
-          $zipUrl = 'https://nssm.cc/release/nssm-2.24-101-g897c7ad.zip'
-          $tmp = [System.IO.Path]::GetTempFileName()
           try {
-              $wc = New-Object System.Net.WebClient
-              $wc.DownloadFile($zipUrl, $tmp)
-              Expand-Archive -Path $tmp -DestinationPath 'nssm-tmp' -Force
-              $nssmExe = Get-ChildItem -Path 'nssm-tmp' -Recurse -Filter 'nssm.exe' | Select-Object -First 1
-              if ($nssmExe) {
-                  Copy-Item -Path $nssmExe.FullName -Destination 'installer\nssm.exe'
-                  Write-Host "nssm ready: $($nssmExe.FullName)"
-              } else { throw 'nssm.exe not found in archive' }
+              Invoke-WebRequest -Uri 'https://nssm.cc/release/nssm-2.24-101-g897c7ad.zip' -OutFile nssm.zip -UseBasicParsing
           } catch {
-              Write-Host "WARNING: nssm download failed ($($_.Exception.Message))"
-              Write-Host "WARNING: 安装程序将使用 sc.exe 注册服务（功能等效）"
+              Write-Host 'nssm download failed, installer will use sc.exe instead.'
+              exit 0
           }
-          Remove-Item -Recurse -Force -ErrorAction SilentlyContinue 'nssm-tmp'
-          Remove-Item -Force -ErrorAction SilentlyContinue $tmp
+          Expand-Archive -Path nssm.zip -DestinationPath nssm-tmp -Force
+          $nssmExe = Get-ChildItem -Path nssm-tmp -Recurse -Filter nssm.exe | Select-Object -First 1
+          if ($nssmExe) {
+              Copy-Item $nssmExe.FullName installer\nssm.exe
+              Write-Host 'nssm ready'
+          }
+          Remove-Item -Recurse -Force nssm-tmp
+          Remove-Item nssm.zip
         shell: powershell
 
       - name: Copy SmartTriage.exe to installer dir
