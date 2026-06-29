@@ -3,9 +3,8 @@ __pycache__/
 *.py[cod]
 *.egg-info/
 dist/
-build/
-*.spec
-*.env
+build/*.spec
+.env
 *.db
 
 # Node
