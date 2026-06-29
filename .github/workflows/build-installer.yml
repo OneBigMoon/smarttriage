@@ -60,7 +60,12 @@ jobs:
           New-Item -ItemType Directory -Force -Path installer\pgsql | Out-Null
           $url = 'https://get.enterprisedb.com/postgresql/postgresql-10.23-1-windows-x64-binaries.zip'
           Write-Host 'Downloading PostgreSQL...'
-          Invoke-WebRequest -Uri $url -OutFile 'pg.zip' -UseBasicParsing
+          curl.exe -L -o pg.zip --max-redirs 5 $url
+          if ($LASTEXITCODE -ne 0) {
+              Write-Host 'Primary download failed, trying mirror...'
+              $url = 'https://github.com/OneBigMoon/smarttriage/releases/download/deps/postgresql-10.23-1-windows-x64-binaries.zip'
+              Invoke-WebRequest -Uri $url -OutFile 'pg.zip' -UseBasicParsing
+          }
           Write-Host 'Extracting...'
           Expand-Archive -Path 'pg.zip' -DestinationPath 'pg-tmp' -Force
           Copy-Item -Path 'pg-tmp\pgsql\*' -Destination 'installer\pgsql\' -Recurse -Force
@@ -96,13 +101,27 @@ jobs:
       - name: Download nssm
         run: |
           Write-Host 'Downloading nssm...'
-          $url = 'https://nssm.cc/release/nssm-2.24-101-g897c7ad.zip'
-          Invoke-WebRequest -Uri $url -OutFile 'nssm.zip' -UseBasicParsing
+          # nssm.cc 可能限制直接下载，改用 GitHub 镜像
+          $url = 'https://raw.githubusercontent.com/nssm/nssm/refs/heads/master/README.txt'
+          $zipUrl = 'https://nssm.cc/release/nssm-2.24-101-g897c7ad.zip'
+          # 先用 curl.exe（Windows CI 内置）
+          curl.exe -L -o nssm.zip --max-redirs 5 $zipUrl
+          if ($LASTEXITCODE -ne 0) {
+              # 备用：从 GitHub releases 下载（社区镜像）
+              Write-Host 'Primary download failed, trying mirror...'
+              $fallbackUrl = 'https://github.com/nicedoc/nssm/releases/download/v2.24-101-g897c7ad/nssm-2.24-101-g897c7ad.zip'
+              Invoke-WebRequest -Uri $fallbackUrl -OutFile 'nssm.zip' -UseBasicParsing
+          }
           Expand-Archive -Path 'nssm.zip' -DestinationPath 'nssm-tmp' -Force
-          Copy-Item -Path 'nssm-tmp\nssm-2.24-101-g897c7ad\win64\nssm.exe' -Destination 'installer\nssm.exe'
-          Remove-Item -Recurse -Force 'nssm-tmp'
-          Remove-Item 'nssm.zip'
-          Write-Host "nssm ready"
+          $nssmExe = Get-ChildItem -Path 'nssm-tmp' -Recurse -Filter 'nssm.exe' | Select-Object -First 1
+          if ($nssmExe) {
+              Copy-Item -Path $nssmExe.FullName -Destination 'installer\nssm.exe'
+              Write-Host "nssm ready"
+          } else {
+              Write-Host "WARNING: nssm.exe not found, service mode will fallback to sc.exe"
+          }
+          Remove-Item -Recurse -Force -ErrorAction SilentlyContinue 'nssm-tmp'
+          Remove-Item -Force -ErrorAction SilentlyContinue 'nssm.zip'
         shell: powershell
 
       - name: Copy SmartTriage.exe to installer dir
