@@ -95,9 +95,9 @@ begin
   if CurStep = ssPostInstall then
   begin
     Port := PortPage.Values[0];
-    DbUrl := Format('postgresql+asyncpg://%s:%s@%s:%s/%s',
-      [DbPage.Values[3], DbPage.Values[4],
-       DbPage.Values[0], DbPage.Values[1], DbPage.Values[2]]);
+    DbUrl := 'postgresql+asyncpg://' +
+	      DbPage.Values[3] + ':' + DbPage.Values[4] + '@' +
+	      DbPage.Values[0] + ':' + DbPage.Values[1] + '/' + DbPage.Values[2];
 
     // ── 生成 settings.env ──
     EnvPath := ExpandConstant('{app}\settings.env');
