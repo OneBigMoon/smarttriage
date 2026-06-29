@@ -119,8 +119,7 @@ jobs:
 
       - name: Copy SmartTriage.exe to installer dir
         run: |
-          cd server
-          copy /Y dist\SmartTriage.exe installer\SmartTriage.exe
+          copy /Y server\dist\SmartTriage.exe server\installer\SmartTriage.exe
         shell: cmd
 
       - name: Setup Inno Setup
@@ -130,19 +129,17 @@ jobs:
 
       - name: Compile installer
         run: |
-          "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" installer\setup.iss
+          "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" server\installer\setup.iss
         shell: cmd
-        working-directory: server
 
       - name: List output
-        run: dir /s installer\Output\
+        run: dir /s server\installer\Output\
         shell: cmd
-        working-directory: server
 
       - name: Upload installer artifact
         uses: actions/upload-artifact@v4
         with:
           name: SmartTriage-Setup
           path: server/installer/Output/SmartTriage-Setup-*.exe
-          compression-level: 0   # 已经是压缩的 exe，不再压缩
+          compression-level: 0
           retention-days: 30

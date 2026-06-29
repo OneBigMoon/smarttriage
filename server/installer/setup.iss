@@ -179,12 +179,18 @@ end;
 [Files]
 ; 主程序（PyInstaller 打包）
 Source: "SmartTriage.exe"; DestDir: "{app}"; Flags: ignoreversion
-; PostgreSQL 便携版
+; PostgreSQL 便携版（可选——CI 中未成功下载则跳过）
+#if FileExists("pgsql\bin\initdb.exe")
 Source: "pgsql\*"; DestDir: "{app}\pgsql"; Flags: ignoreversion recursesubdirs createallsubdirs
-; Redis 便携版
+#endif
+; Redis 便携版（可选）
+#if FileExists("redis\redis-server.exe")
 Source: "redis\*"; DestDir: "{app}\redis"; Flags: ignoreversion recursesubdirs createallsubdirs
-; Windows 服务管理工具
+#endif
+; Windows 服务管理工具（可选）
+#if FileExists("nssm.exe")
 Source: "nssm.exe"; DestDir: "{app}"; Flags: ignoreversion
+#endif
 ; PostgreSQL 部署脚本
 Source: "install-pgsql.bat"; DestDir: "{app}"; Flags: ignoreversion
 ; 使用说明
