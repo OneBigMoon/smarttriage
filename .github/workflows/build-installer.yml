@@ -5,7 +5,8 @@ on:
     tags:
       - 'v*'          # 推送 v3.0.0 这样的标签时触发
     branches:
-      - main          # 推送到 main 也触发（方便测试）
+      - main
+      - master        # 兼容两种分支名
   workflow_dispatch:  # 也可以在 GitHub 页面手动触发
 
 jobs:
