@@ -30,7 +30,8 @@ WizardStyle=modern
 PrivilegesRequired=admin
 DisableProgramGroupPage=yes
 ArchitecturesInstallIn64BitMode=x64compatible
-MinVersion=0,5.2        ; Windows Server 2003 R2 / 2008+
+; Windows Server 2008 (NT 6.0) 及以上
+MinVersion=0,6.0
 DisableWelcomePage=no
 
 [Languages]
